@@ -8,4 +8,4 @@
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=kyoichi-taniguchi&theme=dracula&hide_border=true)](https://git.io/streak-stats)
 
 ## Recently Blog posts
-<!-- BLOG-POST-LIST:START -->- [情報セキュリティ：デバイスの安全対策](https://www.kyoichitech.com/post/is-the-expensive-screen-replacement-worth-it) Wed Jul 13 2022 12:34 PM<br>- [今、市場で人気のアプリは？](https://www.kyoichitech.com/post/cheap-and-reliable-check-out-these-sturdy-laptops-under-300) Wed Jul 13 2022 12:34 PM<br>- [AI が変える、個人データの追跡方法](https://www.kyoichitech.com/post/5-reasons-to-keep-your-landline-phone) Wed Jul 13 2022 12:34 PM<br><!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->[情報セキュリティ：デバイスの安全対策](https://www.kyoichitech.com/post/is-the-expensive-screen-replacement-worth-it) Wed Jul 13 2022 12:34 PM<br>[今、市場で人気のアプリは？](https://www.kyoichitech.com/post/cheap-and-reliable-check-out-these-sturdy-laptops-under-300) Wed Jul 13 2022 12:34 PM<br>[AI が変える、個人データの追跡方法](https://www.kyoichitech.com/post/5-reasons-to-keep-your-landline-phone) Wed Jul 13 2022 12:34 PM<br><!-- BLOG-POST-LIST:END -->
