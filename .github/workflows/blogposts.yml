@@ -15,4 +15,4 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://www.kyoichitech.com/blog-feed.xml"
-          template: "- [$title]($url) $date<br>"
+          template: "[$title]($url) $date<br>"
