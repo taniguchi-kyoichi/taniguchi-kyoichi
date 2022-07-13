@@ -9,4 +9,7 @@
 
 # Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [情報セキュリティ：デバイスの安全対策](https://www.kyoichitech.com/post/is-the-expensive-screen-replacement-worth-it)
+- [今、市場で人気のアプリは？](https://www.kyoichitech.com/post/cheap-and-reliable-check-out-these-sturdy-laptops-under-300)
+- [AI が変える、個人データの追跡方法](https://www.kyoichitech.com/post/5-reasons-to-keep-your-landline-phone)
 <!-- BLOG-POST-LIST:END -->
