@@ -7,7 +7,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kyoichi-taniguchi&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=kyoichi-taniguchi&theme=dracula&hide_border=true)](https://git.io/streak-stats)
 
-# Blog posts
+## Recently Blog posts
 <!-- BLOG-POST-LIST:START -->
 - [情報セキュリティ：デバイスの安全対策](https://www.kyoichitech.com/post/is-the-expensive-screen-replacement-worth-it)
 - [今、市場で人気のアプリは？](https://www.kyoichitech.com/post/cheap-and-reliable-check-out-these-sturdy-laptops-under-300)
