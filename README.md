@@ -11,9 +11,7 @@
 
 ## Recently Blog posts
 <!-- BLOG-POST-LIST:START -->
-- [情報セキュリティ：デバイスの安全対策](https://www.kyoichitech.com/post/is-the-expensive-screen-replacement-worth-it)
-- [今、市場で人気のアプリは？](https://www.kyoichitech.com/post/cheap-and-reliable-check-out-these-sturdy-laptops-under-300)
-- [AI が変える、個人データの追跡方法](https://www.kyoichitech.com/post/5-reasons-to-keep-your-landline-phone)
+- [SNSを１週間で作った話 - Flutterを用いたiOS個人開発](https://www.kyoichitech.com/post/sns%E3%82%92%EF%BC%91%E9%80%B1%E9%96%93%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E8%A9%B1-flutter%E3%82%92%E7%94%A8%E3%81%84%E3%81%9Fios%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA)
 <!-- BLOG-POST-LIST:END -->
 ## Production
 １ヶ月の予算を決めて管理！ - Monthsave
