@@ -3,9 +3,11 @@
 [![My Qiita contributions](https://qiita-badge.apiapi.app/s/taniguchi-kyoichi/contributions.svg)](http://qiita.com/taniguchi-kyoichi)
 [![My Qiita followers](https://qiita-badge.apiapi.app/s/taniguchi-kyoichi/followers.svg)](http://qiita.com/taniguchi-kyoichi)
 
+## Github Data
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kyoichi-taniguchi&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=kyoichi-taniguchi&theme=dracula&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=kyoichi-taniguchi&theme=dracula&hide_border=false)](https://git.io/streak-stats)　
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kyoichi-taniguchi&theme=dracula&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 
 ## Recently Blog posts
 <!-- BLOG-POST-LIST:START -->
