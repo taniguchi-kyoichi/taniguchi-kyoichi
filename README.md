@@ -1,7 +1,11 @@
+![My Profile views](https://komarev.com/ghpvc/?username=taniguchi-kyoichi)
+[![My github](https://img.shields.io/github/followers/taniguchi-kyoichi?label=follow&logo=github&style=flat)](https://github.com/taniguchi-kyoichi)
+[![My twitter](https://img.shields.io/twitter/follow/kyondev1?label=Twitter&logo=twitter&style=flat)](https://twitter.com/kyondev1)
 
 [![My Qiita posts](https://qiita-badge.apiapi.app/s/taniguchi-kyoichi/posts.svg)](http://qiita.com/taniguchi-kyoichi)
 [![My Qiita contributions](https://qiita-badge.apiapi.app/s/taniguchi-kyoichi/contributions.svg)](http://qiita.com/taniguchi-kyoichi)
 [![My Qiita followers](https://qiita-badge.apiapi.app/s/taniguchi-kyoichi/followers.svg)](http://qiita.com/taniguchi-kyoichi)
+
 ## Github Data
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=taniguchi-kyoichi&theme=dracula)](https://git.io/streak-stats)
