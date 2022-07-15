@@ -2,12 +2,10 @@
 [![My Qiita posts](https://qiita-badge.apiapi.app/s/taniguchi-kyoichi/posts.svg)](http://qiita.com/taniguchi-kyoichi)
 [![My Qiita contributions](https://qiita-badge.apiapi.app/s/taniguchi-kyoichi/contributions.svg)](http://qiita.com/taniguchi-kyoichi)
 [![My Qiita followers](https://qiita-badge.apiapi.app/s/taniguchi-kyoichi/followers.svg)](http://qiita.com/taniguchi-kyoichi)
-
 ## Github Data
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=taniguchi-kyoichi&theme=dracula)](https://git.io/streak-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kyoichi-taniguchi&theme=dracula&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
 
 ## Recently Blog posts
 <!-- BLOG-POST-LIST:START -->
