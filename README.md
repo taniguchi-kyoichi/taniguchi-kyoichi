@@ -2,6 +2,22 @@
 [![My github](https://img.shields.io/github/followers/taniguchi-kyoichi?label=follow&logo=github&style=flat)](https://github.com/taniguchi-kyoichi)
 [![My twitter](https://img.shields.io/twitter/follow/kyondev1?label=Twitter&logo=twitter&style=flat)](https://twitter.com/kyondev1)
 
+<!-- Like のバッジ -->
+<a href="https://zenn.dev/kyoichi">
+  <img src="https://zenn.badge.nikaera.com/s/kyoichi/likes?style=flat" alt="kyoichi likes" />
+</a>
+
+<!-- Articles のバッジ -->
+<a href="https://zenn.dev/kyoichi/articles">
+  <img src="https://zenn.badge.nikaera.com/s/kyoichi/articles?style=flat" alt="kyoichi articles" />
+</a>
+
+<!-- Followers のバッジ -->
+<a href="https://zenn.dev/kyoichi/followers">
+  <img src="https://zenn.badge.nikaera.com/s/kyoichi/followers?style=flat" alt="kyoichi followers" />
+</a>
+
+
 [![My Qiita posts](https://qiita-badge.apiapi.app/s/taniguchi-kyoichi/posts.svg)](http://qiita.com/taniguchi-kyoichi)
 [![My Qiita contributions](https://qiita-badge.apiapi.app/s/taniguchi-kyoichi/contributions.svg)](http://qiita.com/taniguchi-kyoichi)
 [![My Qiita followers](https://qiita-badge.apiapi.app/s/taniguchi-kyoichi/followers.svg)](http://qiita.com/taniguchi-kyoichi)
