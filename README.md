@@ -27,11 +27,6 @@
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=taniguchi-kyoichi&theme=dracula)](https://git.io/streak-stats)
 
 
-# Zenn Articles
-
-<!-- profile updater begin: zenn -->
-<!-- profile updater end: zenn -->
-
 ## Recently Blog Posts
 <!-- BLOG-POST-LIST:START -->
 - [SNSを１週間で作った話 - Flutterを用いたiOS個人開発](https://www.kyoichitech.com/post/sns%E3%82%92%EF%BC%91%E9%80%B1%E9%96%93%E3%81%A7%E4%BD%9C%E3%81%A3%E3%81%9F%E8%A9%B1-flutter%E3%82%92%E7%94%A8%E3%81%84%E3%81%9Fios%E5%80%8B%E4%BA%BA%E9%96%8B%E7%99%BA)
