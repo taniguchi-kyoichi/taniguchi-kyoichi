@@ -4,7 +4,7 @@
 ## WebSite
 - ### Personal Blog Media
   https://taniguchi-kyoichi.com/
-- ### Personal Tech Blog
+- ### Tech Blog
   https://taniguchi-kyoichi.com/tech/
 
 ## Contribution and Streak
