@@ -1,0 +1,16 @@
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: sarisia/actions-readme-feed@v1
+        id: feed
+        with:
+          url: 'https://taniguchi-kyoichi.com/tech/feed/'
+          file: 'README.md'
+      - if: ${{ steps.feed.outputs.changed == true }}
+        uses: sarisia/actions-commit@master
