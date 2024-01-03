@@ -1,11 +1,15 @@
 # Kyoichi Taniguchi - iOS developer Swift, Dart
 ### 
 
-## WebSite
+## Blog
 - ### Personal Blog Media
   https://taniguchi-kyoichi.com/
 - ### Tech Blog
   https://taniguchi-kyoichi.com/tech/
+
+### Latest Posts
+<!-- feed start -->
+<!-- feed end -->
 
 ## Contribution and Streak
 
