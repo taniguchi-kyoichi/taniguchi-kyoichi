@@ -5,6 +5,7 @@
 - ### [Personal Blog Media](https://taniguchi-kyoichi.com/)
   #### Latest Posts
 <!-- personal feed start -->
+- Apr 23 - [習慣化/自己管理アプリ『ごほうび習慣』を開発しました！](https://taniguchi-kyoichi.com/2023/04/23/gohoubishukanapp/?utm_source=rss&utm_medium=rss&utm_campaign=gohoubishukanapp)
 <!-- personal feed end -->
 - ### [Tech Blog](https://taniguchi-kyoichi.com/tech/)
   #### Latest Posts
