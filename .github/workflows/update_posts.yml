@@ -9,9 +9,18 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: sarisia/actions-readme-feed@v1
-        id: feed
+        id: personal
+        with:
+          url: 'https://taniguchi-kyoichi.com/feed/'
+          file: 'README.md'
+          start_flag: "<!-- personal blog start -->"
+          end_flag: "<!-- personal blog end -->"
+      - uses: sarisia/actions-readme-feed@v1
+        id: tech
         with:
           url: 'https://taniguchi-kyoichi.com/tech/feed/'
           file: 'README.md'
+          start_flag: "<!-- tech blog start -->"
+          end_flag: "<!-- tech blog end -->"
       - if: ${{ steps.feed.outputs.changed == true }}
         uses: sarisia/actions-commit@master
