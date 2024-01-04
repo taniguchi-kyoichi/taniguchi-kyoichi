@@ -5,6 +5,7 @@
 - ### [Personal Blog Media](https://taniguchi-kyoichi.com/)
   #### Latest Posts
 <!-- personal feed start -->
+- Jan 04 - [【新iOSアプリ】ごほうび習慣プラスをリリースしました](https://taniguchi-kyoichi.com/2024/01/04/%e3%80%90%e6%96%b0ios%e3%82%a2%e3%83%97%e3%83%aa%e3%80%91%e3%81%94%e3%81%bb%e3%81%86%e3%81%b3%e7%bf%92%e6%85%a3%e3%83%97%e3%83%a9%e3%82%b9%e3%82%92%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%97/?utm_source=rss&utm_medium=rss&utm_campaign=%25e3%2580%2590%25e6%2596%25b0ios%25e3%2582%25a2%25e3%2583%2597%25e3%2583%25aa%25e3%2580%2591%25e3%2581%2594%25e3%2581%25bb%25e3%2581%2586%25e3%2581%25b3%25e7%25bf%2592%25e6%2585%25a3%25e3%2583%2597%25e3%2583%25a9%25e3%2582%25b9%25e3%2582%2592%25e3%2583%25aa%25e3%2583%25aa%25e3%2583%25bc%25e3%2582%25b9%25e3%2581%2597)
 - Apr 23 - [習慣化/自己管理アプリ『ごほうび習慣』を開発しました！](https://taniguchi-kyoichi.com/2023/04/23/gohoubishukanapp/?utm_source=rss&utm_medium=rss&utm_campaign=gohoubishukanapp)
 <!-- personal feed end -->
 - ### [Tech Blog](https://taniguchi-kyoichi.com/tech/)
