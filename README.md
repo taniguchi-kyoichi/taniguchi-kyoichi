@@ -25,8 +25,8 @@
 
 [<image src="https://github.com/taniguchi-kyoichi/taniguchi-kyoichi/assets/108321315/a98356e1-6abd-4029-8ea0-4e55ffc0ca07"
  width="100">
-](https://apps.apple.com/jp/app/id1671700938&itsct=apps_box_link)　
-[<image src="https://user-images.githubusercontent.com/108321315/178869457-9d245803-d786-4d78-b922-8e7c356e8b3d.png" height="80">](https://apps.apple.com/jp/app/id1671700938&itsct=apps_box_link)
+](https://apps.apple.com/jp/app/id1671700938)　
+[<image src="https://user-images.githubusercontent.com/108321315/178869457-9d245803-d786-4d78-b922-8e7c356e8b3d.png" height="80">](https://apps.apple.com/jp/app/id1671700938)
 
 ---
 マインドマップAI - 最新生成AIでアイデア出し
