@@ -20,5 +20,4 @@ jobs:
           file: 'README.md'
           start_flag: "<!-- tech feed start -->"
           end_flag: "<!-- tech feed end -->"
-      - if: ${{ steps.feed.outputs.changed == true }}
-        uses: sarisia/actions-commit@master
+      - uses: sarisia/actions-commit@master
