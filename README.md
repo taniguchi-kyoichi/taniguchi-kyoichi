@@ -35,6 +35,7 @@
  width="100">
 ](https://apps.apple.com/jp/app/id6470609816)　
 [<image src="https://user-images.githubusercontent.com/108321315/178869457-9d245803-d786-4d78-b922-8e7c356e8b3d.png" height="80">](https://apps.apple.com/jp/app/id6470609816)
+[<image src="https://github.com/taniguchi-kyoichi/taniguchi-kyoichi/assets/108321315/31bac2cf-892d-4cb5-9e21-4de3af7f4c0e" height="80">](https://apps.apple.com/jp/app/id6470609816?itsct=apps_box_link&itscg=30200)
 
 ---
 
