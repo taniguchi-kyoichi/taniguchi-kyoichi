@@ -13,14 +13,14 @@ jobs:
         with:
           url: 'https://taniguchi-kyoichi.com/feed/'
           file: 'README.md'
-          start_flag: "<!-- personal blog start -->"
-          end_flag: "<!-- personal blog end -->"
+          start_flag: "<!-- personal feed start -->"
+          end_flag: "<!-- personal feed end -->"
       - uses: sarisia/actions-readme-feed@v1
         id: tech
         with:
           url: 'https://taniguchi-kyoichi.com/tech/feed/'
           file: 'README.md'
-          start_flag: "<!-- tech blog start -->"
-          end_flag: "<!-- tech blog end -->"
+          start_flag: "<!-- tech feed start -->"
+          end_flag: "<!-- tech feed end -->"
       - if: ${{ steps.feed.outputs.changed == true }}
         uses: sarisia/actions-commit@master
