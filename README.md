@@ -1,4 +1,6 @@
 # Kyoichi Taniguchi - iOS developer Swift, Dart
+## Infomation
+Mail: [info@taniguchi-kyoichi.com](<mailto:info@taniguchi-kyoichi.com>)
 ### 
 
 ## Blog
