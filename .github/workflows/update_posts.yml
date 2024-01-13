@@ -20,4 +20,10 @@ jobs:
           file: 'README.md'
           start_flag: "<!-- tech feed start -->"
           end_flag: "<!-- tech feed end -->"
+      - uses: sarisia/actions-readme-feed@v1
+        with:
+          url: 'https://www.youtube.com/feeds/videos.xml?playlist_id=PLBpEsYBOVBHQXLC_OWHPXAjVL6H5Bu4wU'
+          file: 'README.md'
+          start_flag: "<!-- youtube feed start -->"
+          end_flag: "<!-- youtube feed end -->"
       - uses: sarisia/actions-commit@master
