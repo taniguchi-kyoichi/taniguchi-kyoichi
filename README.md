@@ -68,3 +68,7 @@
   
 
 
+
+<!-- youtube feed start -->
+- Jan 09 - [【筋トレ継続に挑戦】ゲーミフィケーション習慣化アプリ『ごほうび習慣プラス』を作りました！](https://www.youtube.com/watch?v=3yF-Lw2F208)
+<!-- youtube feed end -->
