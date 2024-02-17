@@ -14,11 +14,11 @@ Mail: [info@taniguchi-kyoichi.com](<mailto:info@taniguchi-kyoichi.com>)
 - ### [Tech Blog](https://taniguchi-kyoichi.com/tech/)
   #### Latest Posts
 <!-- tech feed start -->
+- Feb 17 - [【Go×GithubActions】タニタの体重計で計った体重を毎日指定時間にSlack通知する](https://taniguchi-kyoichi.com/tech/2024/02/17/%e3%80%90goxgithubactions%e3%80%91%e3%82%bf%e3%83%8b%e3%82%bf%e3%81%ae%e4%bd%93%e9%87%8d%e8%a8%88%e3%81%a7%e8%a8%88%e3%81%a3%e3%81%9f%e4%bd%93%e9%87%8d%e3%82%92%e6%af%8e%e6%97%a5%e6%8c%87/)
 - Jan 10 - [[Swift] Firestoreのバッチ処理でドキュメントを一気に更新](https://taniguchi-kyoichi.com/tech/2024/01/10/swift-firestore%e3%81%ae%e3%83%90%e3%83%83%e3%83%81%e5%87%a6%e7%90%86%e3%81%a7%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%82%92%e4%b8%80%e6%b0%97%e3%81%ab%e6%9b%b4%e6%96%b0/)
 - Jan 06 - [[Swift] 最新ローカライズ対応（String Catalogs）](https://taniguchi-kyoichi.com/tech/2024/01/06/swift-%e6%9c%80%e6%96%b0%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%a9%e3%82%a4%e3%82%ba%e5%af%be%e5%bf%9c%ef%bc%88string-catalogs%ef%bc%89/)
 - Jan 03 - [[Swift]毎週指定の時間に通知する](https://taniguchi-kyoichi.com/tech/2024/01/03/swift%e3%81%a7%e6%af%8e%e9%80%b1%e6%8c%87%e5%ae%9a%e3%81%ae%e6%99%82%e9%96%93%e3%81%ab%e9%80%9a%e7%9f%a5%e3%81%99%e3%82%8b/)
 - Dec 28 - [[Swift×Firestore] onMoveでシフト可能なドキュメント](https://taniguchi-kyoichi.com/tech/2023/12/28/swift%e3%81%a8firestore%e3%81%a7%e3%82%b7%e3%83%95%e3%83%88%e5%8f%af%e8%83%bd%e3%81%aa%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88/)
-- Apr 20 - [FlutterからiOSのWidgetKitを使う](https://taniguchi-kyoichi.com/tech/2023/04/20/flutter%e3%81%8b%e3%82%89ios%e3%81%aewidgetkit%e3%82%92%e4%bd%bf%e3%81%86/)
 <!-- tech feed end -->
 - ### [YouTube](https://www.youtube.com/channel/UCmMnuEXRsrNNcW4bVeeTI8A)
   #### PlayList - Application Develop
