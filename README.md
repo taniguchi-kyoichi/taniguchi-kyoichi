@@ -32,7 +32,7 @@ Task Planner with AI
 
 [<image src="https://github.com/user-attachments/assets/ba2a0aab-d40b-4a5a-9c37-233487bfff9b"
  width="100">
-](https://apps.apple.com/jp/app/id6474091359)　
+](https://apps.apple.com/jp/app/id6608970326)　
 [<image src="https://user-images.githubusercontent.com/108321315/178869457-9d245803-d786-4d78-b922-8e7c356e8b3d.png" height="80">](https://apps.apple.com/jp/app/id6608970326)
 
 ---
