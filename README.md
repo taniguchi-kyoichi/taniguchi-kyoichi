@@ -22,10 +22,6 @@ Mail: [info@taniguchi-kyoichi.com](<mailto:info@taniguchi-kyoichi.com>)
 <!-- tech feed end -->
 - ### [YouTube](https://www.youtube.com/channel/UCmMnuEXRsrNNcW4bVeeTI8A)
   #### PlayList - Application Develop
-<!-- youtube feed start -->
-- Jan 14 - [【苦悩・ヒント】スマホアプリ個人開発初心者の過程を公開！リアルを全部話します！](https://www.youtube.com/watch?v=IyNSDihFUbY)
-- Jan 09 - [【筋トレ継続に挑戦】ゲーミフィケーション習慣化アプリ『ごほうび習慣プラス』を作りました！](https://www.youtube.com/watch?v=3yF-Lw2F208)
-<!-- youtube feed end -->
 
 ## Contribution and Streak
 
