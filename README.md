@@ -51,7 +51,7 @@
 
 ## 🛠 Technical Skills
 - Swift / SwiftUI
-- Python / TypeScript
+- Python
+- TypeScript
 - Go
-- Firebase
-- Google Cloud Platform
+- Google Cloud Platform / Firebase
