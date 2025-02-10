@@ -57,6 +57,6 @@ AIプロンプト用のコード収集ツール：
 
 <p align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=taniguchi-kyoichi&theme=dracula&hide_border=true&background=00000000" alt="GitHub Streak">
+    <img src="https://streak-stats.demolab.com?user=taniguchi-kyoichi&theme=material-palenight&hide_border=true&border_radius=12&date_format=j%20M%5B%20Y%5D&background=1A1B27&stroke=7982a9&ring=7982a9&fire=ff757f&currStreakNum=9fbbf3&sideNums=9fbbf3&currStreakLabel=a9b1d6&sideLabels=a9b1d6&dates=7982a9" alt="GitHub Streak">
   </a>
 </p>
