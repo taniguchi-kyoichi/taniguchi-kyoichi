@@ -48,15 +48,15 @@ AIプロンプト用のコード収集ツール：
 ## 🚀 Published Apps
 
 | App | Description | Platform |
-|-----|-------------|----------|
-| <img src="https://github.com/taniguchi-kyoichi/taniguchi-kyoichi/assets/108321315/834028fa-6281-4899-8647-0e1fa0ac0cf7" width="100" alt="マインドマップAI Icon"> <br> マインドマップAI | 最新生成AIでアイデア出し <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6470609816) <br> [![Mac App Store](https://img.shields.io/badge/Mac_App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6470609816?platform=mac) | iOS/iPadOS, macOS, visionOS |
-| <img src="https://github.com/user-attachments/assets/ba2a0aab-d40b-4a5a-9c37-233487bfff9b" width="100" alt="Task Planner Icon"> <br> Task Planner with AI | AIを活用したタスク管理ツール <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6608970326) | iOS/iPadOS, watchOS |
-| <img src="https://github.com/taniguchi-kyoichi/taniguchi-kyoichi/assets/108321315/a98356e1-6abd-4029-8ea0-4e55ffc0ca07" width="100" alt="ごほうび習慣プラス Icon"> <br> ごほうび習慣プラス | ゲーミフィケーション習慣化アプリ <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6474091359) | iOS/iPadOS |
+|:---:|:------------|:---------|
+| <img src="https://github.com/taniguchi-kyoichi/taniguchi-kyoichi/assets/108321315/834028fa-6281-4899-8647-0e1fa0ac0cf7" width="80" alt="マインドマップAI Icon"> <br> マインドマップAI | 最新生成AIでアイデア出し <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6470609816) <br> [![Mac App Store](https://img.shields.io/badge/Mac_App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6470609816?platform=mac) | iOS/iPadOS, macOS, visionOS |
+| <img src="https://github.com/user-attachments/assets/ba2a0aab-d40b-4a5a-9c37-233487bfff9b" width="80" alt="Task Planner Icon"> <br> Task Planner with AI | AIを活用したタスク管理ツール <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6608970326) | iOS/iPadOS, watchOS |
+| <img src="https://github.com/taniguchi-kyoichi/taniguchi-kyoichi/assets/108321315/a98356e1-6abd-4029-8ea0-4e55ffc0ca07" width="80" alt="ごほうび習慣プラス Icon"> <br> ごほうび習慣プラス | ゲーミフィケーション習慣化アプリ <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6474091359) | iOS/iPadOS |
 
 ---
 
 <p align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=taniguchi-kyoichi&theme=dracula&hide_border=true&background=00000000" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=taniguchi-kyoichi&theme=dracula&hide_border=true&background=00000000" alt="GitHub Streak">
   </a>
 </p>
