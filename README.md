@@ -38,8 +38,8 @@
 
 ## ⚡ Developer Tools & Contributions
 ### [Codest](https://github.com/no-problem-dev/codest)
-![GitHub stars](https://img.shields.io/github/stars/no-problem-dev/codest?style=social)
-![GitHub forks](https://img.shields.io/github/forks/no-problem-dev/codest?style=social)
+[![GitHub stars](https://img.shields.io/github/stars/no-problem-dev/codest?style=social)](https://github.com/no-problem-dev/codest/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/no-problem-dev/codest?style=social)](https://github.com/no-problem-dev/codest/network/members)
 
 AIプロンプト用のコード収集ツール：
 - 📝 プロジェクトコードの自動集約
