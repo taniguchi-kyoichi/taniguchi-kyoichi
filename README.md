@@ -2,7 +2,7 @@
 
 # 谷口 恭一 / Kyoichi Taniguchi
 
-[![Mail](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=flat-square&logo=gmail&logoColor=white)](mailto:kyoichi_dev.9401@icloud.com)
+[![Mail](https://img.shields.io/badge/Email-kyoichi_dev.9401@icloud.com-blue?style=flat-square&logo=gmail&logoColor=white)](mailto:kyoichi_dev.9401@icloud.com)
 [![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-green?style=flat-square&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
 [![Blog](https://img.shields.io/badge/Blog-taniguchi--kyoichi.com%2Fblog-orange?style=flat-square&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/blog)
 [![Tech Blog](https://img.shields.io/badge/Tech_Blog-taniguchi--kyoichi.com%2Ftech-purple?style=flat-square&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/tech)
