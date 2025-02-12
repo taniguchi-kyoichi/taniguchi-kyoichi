@@ -4,9 +4,9 @@
 
 [![Mail](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=flat-square&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
 [![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-green?style=flat-square&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
+[![Blog](https://img.shields.io/badge/Blog-taniguchi--kyoichi.com%2Fblog-orange?style=flat-square&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/blog)
+[![Tech Blog](https://img.shields.io/badge/Tech_Blog-taniguchi--kyoichi.com%2Ftech-purple?style=flat-square&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/tech)
 [![YouTube](https://img.shields.io/badge/YouTube-@taniguchi--kyoichi-red?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@taniguchi-kyoichi)
-[![Zenn](https://img.shields.io/badge/Zenn-@kyoichi-blue?style=flat-square&logo=zenn&logoColor=white)](https://zenn.dev/kyoichi)
-[![Qiita](https://img.shields.io/badge/Qiita-@taniguchi--kyoichi-55C500?style=flat-square&logo=qiita&logoColor=white)](https://qiita.com/taniguchi-kyoichi)
 
 **iOS Developer & AI App Creator**
 
