@@ -17,12 +17,12 @@
 </div>
 
 ## 👨‍💻 About Me
-- 🎓 Final Year Student at [Yokohama National University](https://www.ynu.ac.jp/english/)
+- 🎓 Graduate of [Yokohama National University](https://www.ynu.ac.jp/english/)
   - Department of Mathematics, Physics, Electrical Engineering and Computer Science
-  - Expected Graduation: March 2025
-- 🏢 Based in Yokohama, Japan
-- 🚀 Crafting native iOS apps with SwiftUI
-- 🤖 Specialized in AI integration and user experience
+  - Graduated: March 2025
+- 🏢 Currently working at a lifestyle app development company in Minato-ku, Tokyo, Japan
+- 🏢 Based in Yokohama, Kanagawa, Japan
+- 🚀 Crafting native iOS apps with Swift and SwiftUI expertise
 - 🌱 Passionate about creating apps that enhance people's daily life and productivity
 
 ## 🛠 Technical Skills
