@@ -2,55 +2,151 @@
 
 # 谷口 恭一 / Kyoichi Taniguchi
 
-[![Mail](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=flat-square&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
-[![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-green?style=flat-square&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
-[![Blog](https://img.shields.io/badge/Blog-taniguchi--kyoichi.com%2Fblog-orange?style=flat-square&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/blog)
-[![Tech Blog](https://img.shields.io/badge/Tech_Blog-taniguchi--kyoichi.com%2Ftech-purple?style=flat-square&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/tech)
-[![YouTube](https://img.shields.io/badge/YouTube-@taniguchi--kyoichi-red?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/@taniguchi-kyoichi)
+**iOS Developer | Swift & SwiftUI Specialist | AI Enthusiast**
 
-**iOS Developer & AI App Creator**
-
-> Building apps that enhance people's lifestyle and productivity through AI technology
-
-[![App Store](https://img.shields.io/badge/App_Store-Developer_Page-0D96F6?style=flat-square&logo=app-store&logoColor=white)](https://apps.apple.com/jp/developer/kyoichi-taniguchi/id1609440791)
+[![Email](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
+[![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-green?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
+[![Blog](https://img.shields.io/badge/Blog-Personal-orange?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/blog)
+[![Tech Blog](https://img.shields.io/badge/Tech_Blog-Development-purple?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/tech)
+[![YouTube](https://img.shields.io/badge/YouTube-@taniguchi--kyoichi-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@taniguchi-kyoichi)
 
 </div>
 
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<a href="https://github.com/taniguchi-kyoichi">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=taniguchi-kyoichi&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true" />
+</a>
+<a href="https://github.com/taniguchi-kyoichi">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=taniguchi-kyoichi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+</a>
+
+<a href="https://github.com/taniguchi-kyoichi">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=taniguchi-kyoichi&theme=tokyonight&hide_border=true" />
+</a>
+
+<a href="https://github.com/taniguchi-kyoichi">
+  <img src="https://github-profile-trophy.vercel.app/?username=taniguchi-kyoichi&theme=tokyonight&no-frame=true&column=7&margin-w=10" />
+</a>
+
+</div>
+
+---
+
 ## 👨‍💻 About Me
-- 🎓 Graduate of [Yokohama National University](https://www.ynu.ac.jp/english/)
+
+- 🎓 Graduate of **Yokohama National University** (March 2025)
   - Department of Mathematics, Physics, Electrical Engineering and Computer Science
-  - Graduated: March 2025
-- 🏢 Currently working at a lifestyle app development company in Minato-ku, Tokyo, Japan
-- 🏢 Based in Yokohama, Kanagawa, Japan
-- 🚀 Crafting native iOS apps with Swift and SwiftUI expertise
-- 🌱 Passionate about creating apps that enhance people's daily life and productivity
+- 🏢 iOS Developer at a lifestyle app development company in Tokyo
+- 📍 Based in Yokohama, Kanagawa, Japan
+- 💡 Passionate about building native iOS apps with **Swift & SwiftUI**
+- 🤖 Exploring AI integration in mobile applications
+
+---
+
+## 🎯 Current Focus
+
+- 📱 **Production iOS Development** - Building lifestyle apps with Swift & SwiftUI at work
+- 🤖 **AI Integration Research** - Exploring latest AI APIs (GPT-4, Claude) for mobile apps
+- 🔬 **visionOS Exploration** - Learning spatial computing and Vision Pro development
+- ✍️ **Technical Writing** - Sharing iOS development insights on my tech blog
+- 🧪 **Side Projects** - Experimenting with new Apple frameworks and technologies
+
+---
+
+## 🌟 2025 Goals
+
+### Technical Growth
+- [ ] Master visionOS development and build a spatial computing app
+- [ ] Deep dive into SwiftUI advanced patterns (TCA, Composable Architecture)
+- [ ] Contribute to open source Swift packages
+- [ ] Learn and implement Core ML for on-device AI
+
+### Content Creation
+- [ ] Publish 12+ technical blog posts (monthly cadence)
+- [ ] Create iOS development tutorial videos on YouTube
+- [ ] Document learnings and code snippets publicly
+
+### Community & Learning
+- [ ] Attend/speak at local iOS meetups or conferences
+- [ ] Build in public - share development journey on social media
+- [ ] Mentor junior developers or contribute to learning resources
+
+---
 
 ## 🛠 Technical Skills
-### Languages & Frameworks
-[![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/swift/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev/)
 
-### Cloud & Tools
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
-[![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
+### Primary Stack (Production Experience)
 
-## ⚡ Developer Tools & Contributions
-### [Codest](https://github.com/no-problem-dev/codest)
-[![GitHub stars](https://img.shields.io/github/stars/no-problem-dev/codest?style=social)](https://github.com/no-problem-dev/codest/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/no-problem-dev/codest?style=social)](https://github.com/no-problem-dev/codest/network/members)
+**iOS Development**
+- **Swift** - Primary language for native iOS development
+- **SwiftUI** - Modern declarative UI framework
+- **UIKit** - Traditional iOS UI framework
+- **Combine** - Reactive programming framework
+- **async/await** - Modern Swift concurrency
 
-AIプロンプト用のコード収集ツール：
-- 📝 プロジェクトコードの自動集約
-- 📚 Markdown形式での整理
+**AI/ML Integration**
+- **OpenAI API** - ChatGPT integration for intelligent features
+- **Claude API** - Anthropic's AI integration
+- **Core ML** - On-device machine learning
 
-## 🚀 Published Apps
+**Cloud & Backend**
+- **Firebase** - Authentication, Firestore, Cloud Functions
+- **Google Cloud Platform** - Cloud services and APIs
+- **REST API** - API integration and consumption
 
-| App | Description | Platform |
-|:---:|:------------|:---------|
-| <img src="https://github.com/user-attachments/assets/ab556acd-b97a-46ea-b788-99be3b14cd6b" width="80" alt="メモニア Icon"> <br> メモニア(Memonia) | AIタグ付け・チャット・クイズで知識を検索・復習・定着 <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6742137367) | iOS/iPadOS |
-| <img src="https://github.com/user-attachments/assets/0b6e869a-6209-4f7f-87c3-ef63ea8417d9" width="80" alt="あしたの時間割 Icon"> <br> 予定管理 あしたの時間割 | 声で簡単、明日の予定管理。夜に予定を立てて朝を快適に <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6741523823) | iOS/iPadOS |
-| <img src="https://github.com/taniguchi-kyoichi/taniguchi-kyoichi/assets/108321315/834028fa-6281-4899-8647-0e1fa0ac0cf7" width="80" alt="マインドマップAI Icon"> <br> マインドマップAI | 最新生成AIでアイデア出し <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6470609816) <br> [![Mac App Store](https://img.shields.io/badge/Mac_App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6470609816?platform=mac) | iOS/iPadOS, macOS, visionOS |
-| <img src="https://github.com/user-attachments/assets/f7d47499-d4e2-495e-a4ce-04e7715c96cc" width="80" alt="Task Planner Icon"> <br> Task Planner with AI | AIを活用したタスク管理ツール <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6608970326) | iOS/iPadOS, watchOS |
-| <img src="https://github.com/taniguchi-kyoichi/taniguchi-kyoichi/assets/108321315/a98356e1-6abd-4029-8ea0-4e55ffc0ca07" width="80" alt="ごほうび習慣プラス Icon"> <br> ごほうび習慣プラス | ゲーミフィケーション習慣化アプリ <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6474091359) | iOS/iPadOS |
+### Secondary Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
+### Apple Ecosystem
+
+**Platforms:** iOS, iPadOS, macOS, watchOS, visionOS
+**Frameworks:** CloudKit, HealthKit, WidgetKit, App Intents, StoreKit
+**Tools:** Xcode, Instruments, TestFlight, App Store Connect
+
+### Development Practices
+
+**Architecture:** MVVM, Clean Architecture
+**Testing:** XCTest, UI Testing
+**CI/CD:** Xcode Cloud, GitHub Actions
+**Version Control:** Git, GitHub
+
+---
+
+## 📝 Latest Blog Posts
+
+<!-- BLOG:START -->
+<!-- BLOG:END -->
+
+---
+
+## 🎥 Latest YouTube Videos
+
+<!-- YOUTUBE:START -->
+<!-- YOUTUBE:END -->
+
+---
+
+## 💬 Contact
+
+Feel free to reach out for collaborations, questions, or just to connect!
+
+📧 **Email:** info@taniguchi-kyoichi.com
+🌐 **Website:** [taniguchi-kyoichi.com](https://taniguchi-kyoichi.com)
+📝 **Tech Blog:** [taniguchi-kyoichi.com/tech](https://taniguchi-kyoichi.com/tech)
+🎥 **YouTube:** [@taniguchi-kyoichi](https://youtube.com/@taniguchi-kyoichi)
+
+---
+
+<div align="center">
+
+**Building the future, one line of code at a time** 🚀
+
+</div>
