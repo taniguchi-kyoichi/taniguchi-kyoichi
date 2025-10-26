@@ -139,8 +139,11 @@
 お仕事のご相談、ご質問、または単にお話ししたい方は、お気軽にご連絡ください！
 
 📧 **Email:** info@taniguchi-kyoichi.com
+
 🌐 **Website:** [taniguchi-kyoichi.com](https://taniguchi-kyoichi.com)
+
 📝 **技術ブログ:** [taniguchi-kyoichi.com/tech](https://taniguchi-kyoichi.com/tech)
+
 🎥 **YouTube:** [@taniguchi-kyoichi](https://youtube.com/@taniguchi-kyoichi)
 
 ---
