@@ -30,7 +30,7 @@
 </a>
 
 <a href="https://github.com/taniguchi-kyoichi">
-  <img src="https://github-profile-trophy.vercel.app/?username=taniguchi-kyoichi&theme=tokyonight&no-frame=true&column=7&margin-w=10" />
+  <img src="https://github-profile-trophy.vercel.app/?username=taniguchi-kyoichi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&margin-h=15" />
 </a>
 
 </div>
