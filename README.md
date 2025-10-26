@@ -122,8 +122,8 @@
 
 ## 📝 最新の技術ブログ記事
 
-<!-- BLOG:START -->- [このブログの構成](https://taniguchi-kyoichi.com/tech/react-vite)
-<!-- BLOG:END -->
+<!-- BLOG:START -->
+- [このブログの構成](https://taniguchi-kyoichi.com/tech/react-vite)<!-- BLOG:END -->
 
 ---
 
