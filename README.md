@@ -2,19 +2,19 @@
 
 # 谷口 恭一 / Kyoichi Taniguchi
 
-**iOS Developer | Swift & SwiftUI Specialist | AI Enthusiast**
+**iOSエンジニア | Swift & SwiftUI スペシャリスト | AI技術愛好家**
 
 [![Email](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
 [![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-green?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
-[![Blog](https://img.shields.io/badge/Blog-Personal-orange?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/blog)
-[![Tech Blog](https://img.shields.io/badge/Tech_Blog-Development-purple?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/tech)
+[![Blog](https://img.shields.io/badge/Blog-個人ブログ-orange?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/blog)
+[![Tech Blog](https://img.shields.io/badge/Tech_Blog-技術ブログ-purple?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/tech)
 [![YouTube](https://img.shields.io/badge/YouTube-@taniguchi--kyoichi-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@taniguchi-kyoichi)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub統計情報
 
 <div align="center">
 
@@ -37,116 +37,116 @@
 
 ---
 
-## 👨‍💻 About Me
+## 👨‍💻 自己紹介
 
-- 🎓 Graduate of **Yokohama National University** (March 2025)
-  - Department of Mathematics, Physics, Electrical Engineering and Computer Science
-- 🏢 iOS Developer at a lifestyle app development company in Tokyo
-- 📍 Based in Yokohama, Kanagawa, Japan
-- 💡 Passionate about building native iOS apps with **Swift & SwiftUI**
-- 🤖 Exploring AI integration in mobile applications
-
----
-
-## 🎯 Current Focus
-
-- 📱 **Production iOS Development** - Building lifestyle apps with Swift & SwiftUI at work
-- 🤖 **AI Integration Research** - Exploring latest AI APIs (GPT-4, Claude) for mobile apps
-- 🔬 **visionOS Exploration** - Learning spatial computing and Vision Pro development
-- ✍️ **Technical Writing** - Sharing iOS development insights on my tech blog
-- 🧪 **Side Projects** - Experimenting with new Apple frameworks and technologies
+- 🎓 **横浜国立大学** 卒業（2025年3月）
+  - 理工学部 数物・電子情報系学科
+- 🏢 東京のライフスタイルアプリ開発会社でiOSエンジニアとして勤務
+- 📍 神奈川県横浜市在住
+- 💡 **Swift & SwiftUI** を使ったネイティブiOSアプリ開発に情熱を注ぐ
+- 🤖 モバイルアプリケーションへのAI統合技術を探求中
 
 ---
 
-## 🌟 2025 Goals
+## 🎯 現在の取り組み
 
-### Technical Growth
-- [ ] Master visionOS development and build a spatial computing app
-- [ ] Deep dive into SwiftUI advanced patterns (TCA, Composable Architecture)
-- [ ] Contribute to open source Swift packages
-- [ ] Learn and implement Core ML for on-device AI
-
-### Content Creation
-- [ ] Publish 12+ technical blog posts (monthly cadence)
-- [ ] Create iOS development tutorial videos on YouTube
-- [ ] Document learnings and code snippets publicly
-
-### Community & Learning
-- [ ] Attend/speak at local iOS meetups or conferences
-- [ ] Build in public - share development journey on social media
-- [ ] Mentor junior developers or contribute to learning resources
+- 📱 **本業でのiOS開発** - Swift & SwiftUIを使用したライフスタイルアプリの開発
+- 🤖 **AI統合技術の研究** - 最新のAI API（GPT-4、Claude等）のモバイルアプリへの統合
+- 🔬 **visionOS開発の学習** - 空間コンピューティングとVision Pro開発の探求
+- ✍️ **技術記事の執筆** - iOS開発に関する知見を技術ブログで発信
+- 🧪 **サイドプロジェクト** - 新しいAppleフレームワークと技術の実験
 
 ---
 
-## 🛠 Technical Skills
+## 🌟 2025年の目標
 
-### Primary Stack (Production Experience)
+### 技術的成長
+- [ ] visionOS開発をマスターし、空間コンピューティングアプリを開発
+- [ ] SwiftUIの高度なパターン（TCA、Composable Architecture）を深く学ぶ
+- [ ] オープンソースのSwiftパッケージへコントリビュート
+- [ ] Core MLを学習し、デバイス上でのAI機能を実装
 
-**iOS Development**
-- **Swift** - Primary language for native iOS development
-- **SwiftUI** - Modern declarative UI framework
-- **UIKit** - Traditional iOS UI framework
-- **Combine** - Reactive programming framework
-- **async/await** - Modern Swift concurrency
+### コンテンツ作成
+- [ ] 技術ブログ記事を12本以上執筆（月1本ペース）
+- [ ] iOS開発チュートリアル動画をYouTubeで公開
+- [ ] 学びとコードスニペットを公開してドキュメント化
 
-**AI/ML Integration**
-- **OpenAI API** - ChatGPT integration for intelligent features
-- **Claude API** - Anthropic's AI integration
-- **Core ML** - On-device machine learning
+### コミュニティ & 学習
+- [ ] 地域のiOSミートアップやカンファレンスに参加・登壇
+- [ ] 開発の過程をSNSで公開（Build in Public）
+- [ ] ジュニアエンジニアのメンタリングや学習リソースへの貢献
 
-**Cloud & Backend**
-- **Firebase** - Authentication, Firestore, Cloud Functions
-- **Google Cloud Platform** - Cloud services and APIs
-- **REST API** - API integration and consumption
+---
 
-### Secondary Stack
+## 🛠 技術スタック
+
+### 主要スタック（実務経験あり）
+
+**iOS開発**
+- **Swift** - ネイティブiOS開発の主要言語
+- **SwiftUI** - モダンな宣言的UIフレームワーク
+- **UIKit** - 従来のiOS UIフレームワーク
+- **Combine** - リアクティブプログラミングフレームワーク
+- **async/await** - モダンなSwift並行処理
+
+**AI/ML統合**
+- **OpenAI API** - インテリジェント機能のためのChatGPT統合
+- **Claude API** - AnthropicのAI統合
+- **Core ML** - デバイス上での機械学習
+
+**クラウド & バックエンド**
+- **Firebase** - 認証、Firestore、Cloud Functions
+- **Google Cloud Platform** - クラウドサービスとAPI
+- **REST API** - API統合と利用
+
+### サブスタック
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
-### Apple Ecosystem
+### Appleエコシステム
 
-**Platforms:** iOS, iPadOS, macOS, watchOS, visionOS
-**Frameworks:** CloudKit, HealthKit, WidgetKit, App Intents, StoreKit
-**Tools:** Xcode, Instruments, TestFlight, App Store Connect
+**プラットフォーム:** iOS、iPadOS、macOS、watchOS、visionOS
+**フレームワーク:** CloudKit、HealthKit、WidgetKit、App Intents、StoreKit
+**ツール:** Xcode、Instruments、TestFlight、App Store Connect
 
-### Development Practices
+### 開発プラクティス
 
-**Architecture:** MVVM, Clean Architecture
-**Testing:** XCTest, UI Testing
-**CI/CD:** Xcode Cloud, GitHub Actions
-**Version Control:** Git, GitHub
+**アーキテクチャ:** MVVM、Clean Architecture
+**テスト:** XCTest、UIテスト
+**CI/CD:** Xcode Cloud、GitHub Actions
+**バージョン管理:** Git、GitHub
 
 ---
 
-## 📝 Latest Blog Posts
+## 📝 最新の技術ブログ記事
 
 <!-- BLOG:START -->
 <!-- BLOG:END -->
 
 ---
 
-## 🎥 Latest YouTube Videos
+## 🎥 最新のYouTube動画
 
 <!-- YOUTUBE:START -->
 <!-- YOUTUBE:END -->
 
 ---
 
-## 💬 Contact
+## 💬 お問い合わせ
 
-Feel free to reach out for collaborations, questions, or just to connect!
+お仕事のご相談、ご質問、または単にお話ししたい方は、お気軽にご連絡ください！
 
 📧 **Email:** info@taniguchi-kyoichi.com
 🌐 **Website:** [taniguchi-kyoichi.com](https://taniguchi-kyoichi.com)
-📝 **Tech Blog:** [taniguchi-kyoichi.com/tech](https://taniguchi-kyoichi.com/tech)
+📝 **技術ブログ:** [taniguchi-kyoichi.com/tech](https://taniguchi-kyoichi.com/tech)
 🎥 **YouTube:** [@taniguchi-kyoichi](https://youtube.com/@taniguchi-kyoichi)
 
 ---
 
 <div align="center">
 
-**Building the future, one line of code at a time** 🚀
+**一行一行のコードで、未来を築く** 🚀
 
 </div>

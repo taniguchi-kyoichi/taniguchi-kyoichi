@@ -1,22 +1,28 @@
-name: Latest YouTube videos
+name: YouTube動画自動更新
 on:
   schedule:
-    # Runs every Sunday at 9:00 AM JST (0:00 UTC)
+    # 毎週日曜日午前9時（JST）に実行 (UTC 0:00)
     - cron: '0 0 * * 0'
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch:
+    inputs:
+      max_videos:
+        description: '取得する動画数'
+        required: false
+        default: '5'
+        type: string
 
 jobs:
   update-readme-with-youtube:
-    name: Update README with latest YouTube videos
+    name: READMEにYouTube動画を更新
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: リポジトリをチェックアウト
         uses: actions/checkout@v3
 
-      - name: Update README with latest YouTube videos
+      - name: YouTube動画をREADMEに追加
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           comment_tag_name: "YOUTUBE"
           feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCmMnuEXRsrNNcW4bVeeTI8A"
-          max_post_count: 5
+          max_post_count: ${{ github.event.inputs.max_videos || '5' }}
           template: "- [$title]($url)"

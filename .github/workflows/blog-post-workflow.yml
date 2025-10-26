@@ -1,22 +1,28 @@
-name: Latest blog post workflow
+name: ブログ記事自動更新
 on:
   schedule:
-    # Runs every day at 9:00 AM JST (0:00 UTC)
+    # 毎日午前9時（JST）に実行 (UTC 0:00)
     - cron: '0 0 * * *'
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch:
+    inputs:
+      max_posts:
+        description: '取得する記事数'
+        required: false
+        default: '5'
+        type: string
 
 jobs:
   update-readme-with-blog:
-    name: Update README with latest blog posts
+    name: READMEにブログ記事を更新
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: リポジトリをチェックアウト
         uses: actions/checkout@v3
 
-      - name: Update README with latest blog posts
+      - name: ブログ記事をREADMEに追加
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://taniguchi-kyoichi.com/tech/feed"
-          max_post_count: 5
+          max_post_count: ${{ github.event.inputs.max_posts || '5' }}
           comment_tag_name: "BLOG"
           template: "- [$title]($url)"
