@@ -129,7 +129,13 @@
 
 ## 🎥 最新のYouTube動画
 
-<!-- YOUTUBE:START -->- [『運動脳』の1~3章の紹介・感想](https://www.youtube.com/watch?v=XzzS6y5pZMA)- [『行動経済学が最強の学問である』の紹介・感想](https://www.youtube.com/watch?v=DgWIAm4kr1I)- [『シンギュラリティはより近く』の5~8章を読んだ感想](https://www.youtube.com/watch?v=Lgfcv3ocy4o)- [『シンギュラリティはより近く』の1~4章を読んだ感想](https://www.youtube.com/watch?v=h_Tqc8qJa0U)- [Kyoichi Channel のライブ配信](https://www.youtube.com/watch?v=1P4jzV5Kf_A)<!-- YOUTUBE:END -->
+<!-- YOUTUBE:START -->
+- [『運動脳』の1~3章の紹介・感想](https://www.youtube.com/watch?v=XzzS6y5pZMA)
+- [『行動経済学が最強の学問である』の紹介・感想](https://www.youtube.com/watch?v=DgWIAm4kr1I)
+- [『シンギュラリティはより近く』の5~8章を読んだ感想](https://www.youtube.com/watch?v=Lgfcv3ocy4o)
+- [『シンギュラリティはより近く』の1~4章を読んだ感想](https://www.youtube.com/watch?v=h_Tqc8qJa0U)
+- [Kyoichi Channel のライブ配信](https://www.youtube.com/watch?v=1P4jzV5Kf_A)
+<!-- YOUTUBE:END -->
 
 ---
 
