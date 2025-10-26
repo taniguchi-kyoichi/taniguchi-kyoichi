@@ -14,29 +14,6 @@
 
 ---
 
-## 📊 GitHub統計情報
-
-<div align="center">
-
-<a href="https://github.com/taniguchi-kyoichi">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=taniguchi-kyoichi&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true" />
-</a>
-<a href="https://github.com/taniguchi-kyoichi">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=taniguchi-kyoichi&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</a>
-
-<a href="https://github.com/taniguchi-kyoichi">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=taniguchi-kyoichi&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/taniguchi-kyoichi">
-  <img src="https://github-profile-trophy.vercel.app/?username=taniguchi-kyoichi&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15&margin-h=15" />
-</a>
-
-</div>
-
----
-
 ## 👨‍💻 自己紹介
 
 - 🎓 **横浜国立大学** 卒業（2025年3月）
