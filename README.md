@@ -2,7 +2,7 @@
 
 # 谷口 恭一 / Kyoichi Taniguchi
 
-**iOSエンジニア | Swift & SwiftUI スペシャリスト | AI技術愛好家**
+**iOSエンジニア | Swift & SwiftUI**
 
 [![Email](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
 [![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-green?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
@@ -25,33 +25,78 @@
 
 ---
 
-## 🎯 現在の取り組み
+## 🚀 オープンソースプロジェクト
 
-- 📱 **本業でのiOS開発** - Swift & SwiftUIを使用したライフスタイルアプリの開発
-- 🤖 **AI統合技術の研究** - 最新のAI API（GPT-4、Claude等）のモバイルアプリへの統合
-- 🔬 **visionOS開発の学習** - 空間コンピューティングとVision Pro開発の探求
-- ✍️ **技術記事の執筆** - iOS開発に関する知見を技術ブログで発信
-- 🧪 **サイドプロジェクト** - 新しいAppleフレームワークと技術の実験
+Swift開発者向けに、実務で培った知見を活かしたパッケージを開発・公開しています。
 
----
+<table>
+<tr>
+<td width="50%">
 
-## 🌟 2025年の目標
+### 📦 [swift-api-client](https://github.com/no-problem-dev/swift-api-client)
+async/await対応の軽量HTTPクライアント
 
-### 技術的成長
-- [ ] visionOS開発をマスターし、空間コンピューティングアプリを開発
-- [ ] SwiftUIの高度なパターン（TCA、Composable Architecture）を深く学ぶ
-- [ ] オープンソースのSwiftパッケージへコントリビュート
-- [ ] Core MLを学習し、デバイス上でのAI機能を実装
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-api-client)
+[![Platforms](https://img.shields.io/badge/iOS%20|%20macOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-api-client)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-api-client)
 
-### コンテンツ作成
-- [ ] 技術ブログ記事を12本以上執筆（月1本ペース）
-- [ ] iOS開発チュートリアル動画をYouTubeで公開
-- [ ] 学びとコードスニペットを公開してドキュメント化
+**主な機能**
+- 型安全なAPI通信
+- モダンな並行処理対応
+- 認証統合サポート
 
-### コミュニティ & 学習
-- [ ] 地域のiOSミートアップやカンファレンスに参加・登壇
-- [ ] 開発の過程をSNSで公開（Build in Public）
-- [ ] ジュニアエンジニアのメンタリングや学習リソースへの貢献
+</td>
+<td width="50%">
+
+### 🖼️ [swift-cached-remote-image](https://github.com/no-problem-dev/swift-cached-remote-image)
+SwiftUI向けリモート画像キャッシュ
+
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-cached-remote-image)
+[![Platforms](https://img.shields.io/badge/iOS%20|%20macOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-cached-remote-image)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-cached-remote-image)
+
+**主な機能**
+- メモリ & ディスク二層キャッシュ
+- SwiftUIネイティブAPI
+- 柔軟な画像ソース
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🔐 [swift-authentication](https://github.com/no-problem-dev/swift-authentication)
+Firebase認証統合パッケージ
+
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-authentication)
+[![Firebase](https://img.shields.io/badge/Firebase-integrated-orange.svg)](https://github.com/no-problem-dev/swift-authentication)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-authentication)
+
+**主な機能**
+- Google/Apple Sign-In対応
+- SwiftUI Environment統合
+- 認証状態管理
+
+</td>
+<td width="50%">
+
+### 💳 [swift-subscription](https://github.com/no-problem-dev/swift-subscription)
+RevenueCat統合のサブスクリプション管理
+
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-subscription)
+[![Platforms](https://img.shields.io/badge/iOS%20|%20macOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-subscription)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-subscription)
+
+**主な機能**
+- SwiftUIとasync/await対応
+- サブスクリプション状態監視
+- RevenueCat完全統合
+
+</td>
+</tr>
+</table>
+
+**すべてのパッケージ**: MIT ライセンス | Swift 6.0+ | iOS 17.0+ / macOS 14.0+
 
 ---
 
@@ -66,34 +111,15 @@
 - **Combine** - リアクティブプログラミングフレームワーク
 - **async/await** - モダンなSwift並行処理
 
-**AI/ML統合**
-- **OpenAI API** - インテリジェント機能のためのChatGPT統合
-- **Claude API** - AnthropicのAI統合
-- **Core ML** - デバイス上での機械学習
-
 **クラウド & バックエンド**
 - **Firebase** - 認証、Firestore、Cloud Functions
 - **Google Cloud Platform** - クラウドサービスとAPI
-- **REST API** - API統合と利用
 
 ### サブスタック
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-
-### Appleエコシステム
-
-**プラットフォーム:** iOS、iPadOS、macOS、watchOS、visionOS
-**フレームワーク:** CloudKit、HealthKit、WidgetKit、App Intents、StoreKit
-**ツール:** Xcode、Instruments、TestFlight、App Store Connect
-
-### 開発プラクティス
-
-**アーキテクチャ:** MVVM、Clean Architecture
-**テスト:** XCTest、UIテスト
-**CI/CD:** Xcode Cloud、GitHub Actions
-**バージョン管理:** Git、GitHub
 
 ---
 
@@ -126,11 +152,3 @@
 📝 **技術ブログ:** [taniguchi-kyoichi.com/tech](https://taniguchi-kyoichi.com/tech)
 
 🎥 **YouTube:** [@taniguchi-kyoichi](https://youtube.com/@taniguchi-kyoichi)
-
----
-
-<div align="center">
-
-**一行一行のコードで、未来を築く** 🚀
-
-</div>
