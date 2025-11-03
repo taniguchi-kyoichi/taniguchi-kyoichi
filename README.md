@@ -33,6 +33,21 @@ Swift開発者向けに、一般的なアプリ開発効率を加速させるパ
 <tr>
 <td width="50%">
 
+### 🧭 [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing)
+SwiftUI向けの型安全で宣言的なルーティングライブラリ
+
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-ui-routing)
+[![Platforms](https://img.shields.io/badge/iOS%20|%20macOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-ui-routing)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-ui-routing)
+
+**主な機能**
+- 型安全なルーティング
+- 静的メンバールックアップ
+- コンテキスト分離
+
+</td>
+<td width="50%">
+
 ### 📦 [swift-api-client](https://github.com/no-problem-dev/swift-api-client)
 async/await対応の軽量HTTPクライアント
 
@@ -46,6 +61,8 @@ async/await対応の軽量HTTPクライアント
 - 認証統合サポート
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### 🖼️ [swift-cached-remote-image](https://github.com/no-problem-dev/swift-cached-remote-image)
@@ -61,8 +78,6 @@ SwiftUI向けリモート画像キャッシュ
 - 柔軟な画像ソース
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 ### 🔐 [swift-authentication](https://github.com/no-problem-dev/swift-authentication)
@@ -78,6 +93,8 @@ Firebase認証統合パッケージ
 - 認証状態管理
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### 💳 [swift-subscription](https://github.com/no-problem-dev/swift-subscription)
@@ -92,6 +109,8 @@ RevenueCat統合のサブスクリプション管理
 - サブスクリプション状態監視
 - RevenueCat完全統合
 
+</td>
+<td width="50%">
 </td>
 </tr>
 </table>
