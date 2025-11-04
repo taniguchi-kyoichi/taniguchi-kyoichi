@@ -34,7 +34,7 @@ Swift開発者向けに、一般的なアプリ開発効率を加速させるパ
 <td width="50%">
 
 ### 🧭 [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing)
-SwiftUI向けの階層型ルーティングシステム
+SwiftUI向けの型安全なルーティングライブラリ
 
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-ui-routing)
 [![Platforms](https://img.shields.io/badge/iOS%20|%20macOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-ui-routing)
@@ -43,9 +43,9 @@ SwiftUI向けの階層型ルーティングシステム
 📚 **[ドキュメント](https://no-problem-dev.github.io/swift-ui-routing/documentation/uirouting/)**
 
 **主な機能**
-- TabView/NavigationStack統合
-- 動的ルート生成
-- 型安全なパラメータ管理
+- 型安全な画面遷移
+- Environment統合で簡潔
+- Navigation/Sheet/Alert/Tab/SplitView完全対応
 
 </td>
 <td width="50%">
