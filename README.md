@@ -31,33 +31,32 @@ Swift開発者向けに、一般的なアプリ開発効率を加速させるパ
 
 <table>
 <tr>
-<td width="50%">
+<td colspan="2">
 
-### 🧭 [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing)
+### 🌟 [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing)
+
 SwiftUI向けの型安全なルーティングライブラリ
 
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-ui-routing)
-[![Platforms](https://img.shields.io/badge/iOS%20|%20macOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-ui-routing)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-ui-routing)
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-ui-routing) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-ui-routing) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-ui-routing) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-ui-routing)
 
 📚 **[ドキュメント](https://no-problem-dev.github.io/swift-ui-routing/documentation/uirouting/)**
 
 **主な機能**
-- 型安全な画面遷移
-- Environment統合で簡潔
-- Navigation/Sheet/Alert/Tab/SplitView完全対応
+- **型安全** - 全ての遷移をコンパイル時に検証 | **Environment統合** - `@Environment`で簡潔なAPI
+- **完全対応** - Navigation, Sheet, FullScreenCover, CustomHeightSheet, Alert, TabView, NavigationSplitView（2/3カラム）
+- **クロスタブナビゲーション** - タブ間を跨いだ画面遷移 | **実装例** - [TodoExample](https://github.com/no-problem-dev/swift-ui-routing/tree/main/Examples/TodoExample), [MailExample](https://github.com/no-problem-dev/swift-ui-routing/tree/main/Examples/MailExample)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
-### 📦 [swift-api-client](https://github.com/no-problem-dev/swift-api-client)
+### [swift-api-client](https://github.com/no-problem-dev/swift-api-client)
 async/await対応の軽量HTTPクライアント
 
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-api-client)
-[![Platforms](https://img.shields.io/badge/iOS%20|%20macOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-api-client)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-api-client)
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-api-client) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-api-client) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-api-client) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-api-client)
 
-📚 **[ドキュメント](https://no-problem-dev.github.io/swift-api-client/documentation/apiclient/)**
+📚 [ドキュメント](https://no-problem-dev.github.io/swift-api-client/documentation/apiclient/)
 
 **主な機能**
 - 型安全なAPI通信
@@ -65,18 +64,14 @@ async/await対応の軽量HTTPクライアント
 - 認証統合サポート
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
-### 🖼️ [swift-cached-remote-image](https://github.com/no-problem-dev/swift-cached-remote-image)
+### [swift-cached-remote-image](https://github.com/no-problem-dev/swift-cached-remote-image)
 SwiftUI向けリモート画像キャッシュ
 
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-cached-remote-image)
-[![Platforms](https://img.shields.io/badge/iOS%20|%20macOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-cached-remote-image)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-cached-remote-image)
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-cached-remote-image) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-cached-remote-image) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-cached-remote-image) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-cached-remote-image)
 
-📚 **[ドキュメント](https://no-problem-dev.github.io/swift-cached-remote-image/documentation/cachedremoteimage/)**
+📚 [ドキュメント](https://no-problem-dev.github.io/swift-cached-remote-image/documentation/cachedremoteimage/)
 
 **主な機能**
 - メモリ & ディスク二層キャッシュ
@@ -84,43 +79,39 @@ SwiftUI向けリモート画像キャッシュ
 - 柔軟な画像ソース
 
 </td>
-<td width="50%">
-
-### 🔐 [swift-authentication](https://github.com/no-problem-dev/swift-authentication)
-Firebase認証統合パッケージ
-
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-authentication)
-[![Firebase](https://img.shields.io/badge/Firebase-integrated-orange.svg)](https://github.com/no-problem-dev/swift-authentication)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-authentication)
-
-📚 **[ドキュメント](https://no-problem-dev.github.io/swift-authentication/documentation/authentication/)**
-
-**主な機能**
-- Google/Apple Sign-In対応
-- SwiftUI Environment統合
-- 認証状態管理
-
-</td>
 </tr>
 <tr>
 <td width="50%">
 
-### 💳 [swift-subscription](https://github.com/no-problem-dev/swift-subscription)
-RevenueCat統合のサブスクリプション管理
+### [swift-authentication](https://github.com/no-problem-dev/swift-authentication)
+Firebase Authentication、Google Sign-In、Apple Sign-In をサポートした認証パッケージ
 
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-subscription)
-[![Platforms](https://img.shields.io/badge/iOS%20|%20macOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-subscription)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-subscription)
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-authentication) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-authentication) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-authentication) [![Firebase](https://img.shields.io/badge/Firebase-integrated-orange.svg)](https://github.com/no-problem-dev/swift-authentication) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-authentication)
 
-📚 **[ドキュメント](https://no-problem-dev.github.io/swift-subscription/documentation/subscription/)**
+📚 [ドキュメント](https://no-problem-dev.github.io/swift-authentication/documentation/authentication/)
 
 **主な機能**
-- SwiftUIとasync/await対応
-- サブスクリプション状態監視
-- RevenueCat完全統合
+- Firebase Authentication 統合
+- Google Sign-In / Apple Sign-In 対応
+- SwiftUI Environment 統合
+- モダンな async/await API
 
 </td>
 <td width="50%">
+
+### [swift-subscription](https://github.com/no-problem-dev/swift-subscription)
+RevenueCatを使用したサブスクリプション管理パッケージ
+
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-subscription) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-subscription) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-subscription) [![RevenueCat](https://img.shields.io/badge/RevenueCat-5.14.0+-orange.svg)](https://github.com/no-problem-dev/swift-subscription) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-subscription)
+
+📚 [ドキュメント](https://no-problem-dev.github.io/swift-subscription/documentation/subscription/)
+
+**主な機能**
+- RevenueCat SDK 統合
+- サブスクリプション状態の確認と監視
+- プランの購入と復元
+- SwiftUI 対応（async/await、AsyncStream）
+
 </td>
 </tr>
 </table>
