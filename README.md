@@ -86,7 +86,7 @@ SwiftUI向けリモート画像キャッシュ
 ### [swift-authentication](https://github.com/no-problem-dev/swift-authentication)
 Firebase Authentication、Google Sign-In、Apple Sign-In をサポートした認証パッケージ
 
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-authentication) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-authentication) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-authentication) [![Firebase](https://img.shields.io/badge/Firebase-integrated-orange.svg)](https://github.com/no-problem-dev/swift-authentication) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-authentication)
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-authentication) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-authentication) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-authentication) [![Firebase](https://img.shields.io/badge/Firebase-12.5.0+-orange.svg)](https://github.com/no-problem-dev/swift-authentication) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-authentication)
 
 📚 [ドキュメント](https://no-problem-dev.github.io/swift-authentication/documentation/authentication/)
 
