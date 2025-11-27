@@ -31,20 +31,34 @@ Swift開発者向けに、一般的なアプリ開発効率を加速させるパ
 
 <table>
 <tr>
-<td colspan="2">
+<td width="50%">
 
 ### 🌟 [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing)
-
 SwiftUI向けの型安全なルーティングライブラリ
 
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-ui-routing) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-ui-routing) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-ui-routing) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-ui-routing)
 
-📚 **[ドキュメント](https://no-problem-dev.github.io/swift-ui-routing/documentation/uirouting/)**
+📚 [ドキュメント](https://no-problem-dev.github.io/swift-ui-routing/documentation/uirouting/)
 
 **主な機能**
-- **型安全** - 全ての遷移をコンパイル時に検証 | **Environment統合** - `@Environment`で簡潔なAPI
-- **完全対応** - Navigation, Sheet, FullScreenCover, CustomHeightSheet, Alert, TabView, NavigationSplitView（2/3カラム）
-- **クロスタブナビゲーション** - タブ間を跨いだ画面遷移 | **実装例** - [TodoExample](https://github.com/no-problem-dev/swift-ui-routing/tree/main/Examples/TodoExample), [MailExample](https://github.com/no-problem-dev/swift-ui-routing/tree/main/Examples/MailExample)
+- Navigation/Sheet/Alert/Tab/SplitView対応
+- クロスタブナビゲーション
+- @Environment統合で簡潔なAPI
+
+</td>
+<td width="50%">
+
+### 🎨 [swift-design-system](https://github.com/no-problem-dev/swift-design-system)
+SwiftUI向けの型安全で拡張可能なデザインシステム
+
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-design-system) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-design-system) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-design-system) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-design-system)
+
+📚 [ドキュメント](https://no-problem-dev.github.io/swift-design-system/documentation/designsystem/)
+
+**主な機能**
+- デザインシステムをアプリに即座に組み込み
+- 7種類のビルトインテーマ
+- ライト/ダークモード自動対応
 
 </td>
 </tr>
@@ -116,7 +130,13 @@ RevenueCatを使用したサブスクリプション管理パッケージ
 </tr>
 </table>
 
-**すべてのパッケージ**: MIT ライセンス | Swift 6.0+ | iOS 17.0+ / macOS 14.0+
+---
+
+## 📱 公開アプリ
+
+| App | Description | Platform |
+|:---:|:------------|:---------|
+| <a href="https://apps.apple.com/jp/app/id6751159926"><img src="assets/reading-memory-icon.png" width="100" alt="読書メモリー Icon"></a> <br> 読書メモリー | 本との出会いと対話を美しく記録するアプリ。AIチャットメモ・読書習慣トラッキング・本棚管理 <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6751159926) | iOS |
 
 ---
 
@@ -137,9 +157,9 @@ RevenueCatを使用したサブスクリプション管理パッケージ
 
 ### サブスタック
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
 
@@ -165,7 +185,7 @@ RevenueCatを使用したサブスクリプション管理パッケージ
 
 お仕事のご相談、ご質問、または単にお話ししたい方は、お気軽にご連絡ください！
 
-📧 **Email:** info@taniguchi-kyoichi.com
+📧 **Email:** [info@taniguchi-kyoichi.com](mailto:info@taniguchi-kyoichi.com)
 
 🌐 **Website:** [taniguchi-kyoichi.com](https://taniguchi-kyoichi.com)
 
