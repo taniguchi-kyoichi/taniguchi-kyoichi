@@ -140,6 +140,20 @@ RevenueCatを使用したサブスクリプション管理パッケージ
 
 ---
 
+## 🤖 Claude Code プラグイン
+
+Claude Code の機能を拡張するプラグインマーケットプレイスを公開中。
+
+| プラグイン | 説明 |
+|:----------|:-----|
+| **[notify-on-stop](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/notify-on-stop)** | タスク完了・権限要求時に Slack / macOS 通知を送信 |
+| **[release-flow](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/release-flow)** | CHANGELOG 更新・セマンティックバージョニング自動化 |
+| **[ios-architecture](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/ios-architecture)** | iOS Clean Architecture / SPM マルチモジュール構成ガイド |
+
+[![Marketplace](https://img.shields.io/badge/Marketplace-claude--code--plugins-blueviolet?style=for-the-badge&logo=github)](https://github.com/no-problem-dev/claude-code-plugins)
+
+---
+
 ## 🛠 技術スタック
 
 ### 主要スタック（実務経験あり）
