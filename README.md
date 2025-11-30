@@ -142,13 +142,26 @@ RevenueCatを使用したサブスクリプション管理パッケージ
 
 ## 🤖 Claude Code プラグイン
 
-Claude Code の機能を拡張するプラグインマーケットプレイスを公開中。
+Claude Code の機能を拡張するプラグインを開発・公開中。
 
+**Development Workflow**
 | プラグイン | 説明 |
 |:----------|:-----|
-| **[notify-on-stop](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/notify-on-stop)** | タスク完了・権限要求時に Slack / macOS 通知を送信 |
-| **[release-flow](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/release-flow)** | CHANGELOG 更新・セマンティックバージョニング自動化 |
+| **[ios-dev](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/ios-dev)** | iOS/Swift/Xcode のビルド・テスト・実行コマンド |
+| **[go-backend](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/go-backend)** | Go バックエンドのビルド・テスト・Lint ツール |
+| **[firebase-emulator](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/firebase-emulator)** | Firebase Emulator Suite の起動・停止・管理 |
+
+**Architecture & Design**
+| プラグイン | 説明 |
+|:----------|:-----|
 | **[ios-architecture](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/ios-architecture)** | iOS Clean Architecture / SPM マルチモジュール構成ガイド |
+| **[swift-design-system](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/swift-design-system)** | [NOPROBLEM製 SwiftUIデザインシステム](https://github.com/no-problem-dev/swift-design-system)を使用した iOS UI 実装スキル |
+
+**Utility**
+| プラグイン | 説明 |
+|:----------|:-----|
+| **[release-flow](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/release-flow)** | CHANGELOG 更新・セマンティックバージョニング自動化 |
+| **[notify-on-stop](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/notify-on-stop)** | Claude Codeの停止時に Slack / macOS 通知を送信 |
 
 [![Marketplace](https://img.shields.io/badge/Marketplace-claude--code--plugins-blueviolet?style=for-the-badge&logo=github)](https://github.com/no-problem-dev/claude-code-plugins)
 
