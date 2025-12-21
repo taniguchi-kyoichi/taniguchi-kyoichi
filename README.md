@@ -44,18 +44,18 @@ OpenAI・Anthropic・Gemini に対応した**マルチモーダル LLM クライ
 構造化出力・ツール定義・MCP統合・会話型エージェントを簡単に構築できます。
 
 ```swift
-@StructuredEnum("深刻度")
-enum Severity: String {
-    @StructuredCase("軽微な問題") case low
-    @StructuredCase("対応が必要") case medium
-    @StructuredCase("緊急対応が必要") case critical
-}
-
 @Structured("分析レポート")
 struct AnalysisReport {
     @StructuredField("要約") var summary: String
     @StructuredField("深刻度") var severity: Severity
     @StructuredField("推奨アクション") var recommendations: [String]
+}
+
+@StructuredEnum("深刻度")
+enum Severity: String {
+    @StructuredCase("軽微な問題") case low
+    @StructuredCase("対応が必要") case medium
+    @StructuredCase("緊急対応が必要") case critical
 }
 
 @Tool("Webページの内容を取得")
