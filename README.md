@@ -37,6 +37,7 @@
 [![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
 [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
 [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
+[![Linux](https://img.shields.io/badge/Linux-compatible-green.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
 
 OpenAI・Anthropic・Gemini に対応した**マルチモーダル LLM クライアント**。
@@ -55,16 +56,16 @@ struct FetchWebPage {
     func call() async throws -> String { ... }
 }
 
+let tools = ToolSet {
+    FetchWebPage()
+    MCPServer(command: "npx", arguments: ["-y", "@anthropic/mcp-server-filesystem", "/docs"])
+}
+
 let systemPrompt = Prompt {
     PromptComponent.role("リサーチアシスタント")
     PromptComponent.objective("ドキュメントを調査してレポートを作成")
     PromptComponent.instruction("複数のソースから情報を収集する")
     PromptComponent.constraint("事実に基づいた情報のみを報告する")
-}
-
-let tools = ToolSet {
-    FetchWebPage()
-    MCPServer(command: "npx", arguments: ["-y", "@anthropic/mcp-server-filesystem", "/docs"])
 }
 
 let session = ConversationalAgentSession(
@@ -163,8 +164,6 @@ Claude Code の機能を拡張するプラグインを開発・公開中。
 ---
 
 ## 💬 お問い合わせ
-
-お仕事のご相談、ご質問、または単にお話ししたい方は、お気軽にご連絡ください！
 
 📧 **Email:** [info@taniguchi-kyoichi.com](mailto:info@taniguchi-kyoichi.com)
 
