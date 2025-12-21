@@ -6,8 +6,7 @@
 
 [![Email](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
 [![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-green?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
-[![Blog](https://img.shields.io/badge/Blog-個人ブログ-orange?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/blog)
-[![Tech Blog](https://img.shields.io/badge/Tech_Blog-技術ブログ-purple?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com/tech)
+[![Zenn](https://img.shields.io/badge/Zenn-3EA8FF?style=for-the-badge&logo=zenn&logoColor=white)](https://zenn.dev/kyoichi)
 [![YouTube](https://img.shields.io/badge/YouTube-@taniguchi--kyoichi-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@taniguchi-kyoichi)
 
 </div>
@@ -25,110 +24,85 @@
 
 ---
 
-## 🚀 オープンソースプロジェクト
-
-Swift開発者向けに、一般的なアプリ開発効率を加速させるパッケージを開発・公開しています。
+## 🚀 注力プロジェクト
 
 <table>
 <tr>
-<td width="50%">
+<td>
 
-### 🌟 [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing)
-SwiftUI向けの型安全なルーティングライブラリ
+### 🧠 [swift-llm-structured-outputs](https://github.com/no-problem-dev/swift-llm-structured-outputs)
 
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-ui-routing) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-ui-routing) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-ui-routing) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-ui-routing)
+**Swift で LLM を使ったアプリ・エージェントを構築するためのライブラリ**
 
-📚 [ドキュメント](https://no-problem-dev.github.io/swift-ui-routing/documentation/uirouting/)
+[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
+[![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
+[![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
 
-**主な機能**
-- Navigation/Sheet/Alert/Tab/SplitView対応
-- クロスタブナビゲーション
-- @Environment統合で簡潔なAPI
+OpenAI・Anthropic・Gemini に対応した**マルチモーダル LLM クライアント**。
+構造化出力・ツール定義・MCP統合・会話型エージェントを簡単に構築できます。
 
-</td>
-<td width="50%">
+```swift
+@Structured("リサーチ結果")
+struct ResearchResult {
+    @StructuredField("要約") var summary: String
+    @StructuredField("主要な発見") var findings: [String]
+}
 
-### 🎨 [swift-design-system](https://github.com/no-problem-dev/swift-design-system)
-SwiftUI向けの型安全で拡張可能なデザインシステム
+@Tool("Webページの内容を取得")
+struct FetchWebPage {
+    @ToolArgument("URL") var url: String
+    func call() async throws -> String { ... }
+}
 
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-design-system) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-design-system) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-design-system) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-design-system)
+let systemPrompt = Prompt {
+    PromptComponent.role("リサーチアシスタント")
+    PromptComponent.objective("ドキュメントを調査してレポートを作成")
+    PromptComponent.instruction("複数のソースから情報を収集する")
+    PromptComponent.constraint("事実に基づいた情報のみを報告する")
+}
 
-📚 [ドキュメント](https://no-problem-dev.github.io/swift-design-system/documentation/designsystem/)
+let tools = ToolSet {
+    FetchWebPage()
+    MCPServer(command: "npx", arguments: ["-y", "@anthropic/mcp-server-filesystem", "/docs"])
+}
 
-**主な機能**
-- デザインシステムをアプリに即座に組み込み
-- 7種類のビルトインテーマ
-- ライト/ダークモード自動対応
+let session = ConversationalAgentSession(
+    client: AnthropicClient(apiKey: "..."),
+    systemPrompt: systemPrompt,
+    tools: tools
+)
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+for try await phase in session.run("最新のAIトレンドを調査して", model: .sonnet, outputType: ResearchResult.self) {
+    switch phase {
+    case .completed(let result): print(result.summary)
+    default: break
+    }
+}
+```
 
-### [swift-api-client](https://github.com/no-problem-dev/swift-api-client)
-async/await対応の軽量HTTPクライアント
-
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-api-client) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-api-client) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-api-client) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-api-client)
-
-📚 [ドキュメント](https://no-problem-dev.github.io/swift-api-client/documentation/apiclient/)
-
-**主な機能**
-- 型安全なAPI通信
-- モダンな並行処理対応
-- 認証統合サポート
-
-</td>
-<td width="50%">
-
-### [swift-cached-remote-image](https://github.com/no-problem-dev/swift-cached-remote-image)
-SwiftUI向けリモート画像キャッシュ
-
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-cached-remote-image) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-cached-remote-image) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-cached-remote-image) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-cached-remote-image)
-
-📚 [ドキュメント](https://no-problem-dev.github.io/swift-cached-remote-image/documentation/cachedremoteimage/)
-
-**主な機能**
-- メモリ & ディスク二層キャッシュ
-- SwiftUIネイティブAPI
-- 柔軟な画像ソース
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### [swift-authentication](https://github.com/no-problem-dev/swift-authentication)
-Firebase Authentication、Google Sign-In、Apple Sign-In をサポートした認証パッケージ
-
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-authentication) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-authentication) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-authentication) [![Firebase](https://img.shields.io/badge/Firebase-12.5.0+-orange.svg)](https://github.com/no-problem-dev/swift-authentication) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-authentication)
-
-📚 [ドキュメント](https://no-problem-dev.github.io/swift-authentication/documentation/authentication/)
-
-**主な機能**
-- Firebase Authentication 統合
-- Google Sign-In / Apple Sign-In 対応
-- SwiftUI Environment 統合
-- モダンな async/await API
-
-</td>
-<td width="50%">
-
-### [swift-subscription](https://github.com/no-problem-dev/swift-subscription)
-RevenueCatを使用したサブスクリプション管理パッケージ
-
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-subscription) [![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-subscription) [![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-subscription) [![RevenueCat](https://img.shields.io/badge/RevenueCat-5.14.0+-orange.svg)](https://github.com/no-problem-dev/swift-subscription) [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-subscription)
-
-📚 [ドキュメント](https://no-problem-dev.github.io/swift-subscription/documentation/subscription/)
-
-**主な機能**
-- RevenueCat SDK 統合
-- サブスクリプション状態の確認と監視
-- プランの購入と復元
-- SwiftUI 対応（async/await、AsyncStream）
+📚 [ドキュメント](https://no-problem-dev.github.io/swift-llm-structured-outputs/documentation/llmstructuredoutputs/)
 
 </td>
 </tr>
 </table>
+
+---
+
+## 📦 Swift Packages
+
+Swift開発者向けに、アプリ開発を加速させるパッケージを公開しています。
+
+| パッケージ | 説明 |
+|:----------|:-----|
+| [swift-llm-structured-outputs](https://github.com/no-problem-dev/swift-llm-structured-outputs) | マルチモーダル対応のLLMクライアント。会話型エージェントを簡単に構築 |
+| [LLMCodable](https://github.com/no-problem-dev/LLMCodable) | LLMベースの構造化データ変換。自然言語からSwift型への変換を実現 |
+| [swift-design-system](https://github.com/no-problem-dev/swift-design-system) | SwiftUI向け型安全デザインシステム。7種類のビルトインテーマ、ライト/ダークモード対応 |
+| [swift-cached-remote-image](https://github.com/no-problem-dev/swift-cached-remote-image) | メモリ＆ディスク二層キャッシュのリモート画像ライブラリ |
+| [swift-authentication](https://github.com/no-problem-dev/swift-authentication) | Firebase Auth / Google Sign-In / Apple Sign-In 統合。async/await対応 |
+| [swift-subscription](https://github.com/no-problem-dev/swift-subscription) | RevenueCat統合のサブスクリプション管理。購入・復元・状態監視 |
+| [swift-api-client](https://github.com/no-problem-dev/swift-api-client) | async/await対応の軽量HTTPクライアント。型安全なAPI通信 |
+| [swift-firebase-server](https://github.com/no-problem-dev/swift-firebase-server) | Firestore REST APIクライアント。サーバーサイドSwift向け |
 
 ---
 
@@ -144,38 +118,13 @@ RevenueCatを使用したサブスクリプション管理パッケージ
 
 Claude Code の機能を拡張するプラグインを開発・公開中。
 
-**Development Workflow**
-| プラグイン | 説明 |
-|:----------|:-----|
-| **[ios-dev](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/ios-dev)** | iOS/Swift/Xcode のビルド・テスト・実行コマンド |
-| **[go-backend](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/go-backend)** | Go バックエンドのビルド・テスト・Lint ツール |
-| **[firebase-emulator](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/firebase-emulator)** | Firebase Emulator Suite の起動・停止・管理 |
+| カテゴリ | プラグイン |
+|:--------|:----------|
+| **Development** | [ios-dev](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/ios-dev) ・ [go-backend](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/go-backend) ・ [firebase-emulator](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/firebase-emulator) |
+| **Architecture** | [ios-architecture](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/ios-architecture) ・ [swift-design-system](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/swift-design-system) |
+| **Utility** | [release-flow](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/release-flow) ・ [notify-on-stop](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/notify-on-stop) |
 
-**Architecture & Design**
-| プラグイン | 説明 |
-|:----------|:-----|
-| **[ios-architecture](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/ios-architecture)** | iOS Clean Architecture / SPM マルチモジュール構成ガイド |
-| **[swift-design-system](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/swift-design-system)** | [NOPROBLEM製 SwiftUIデザインシステム](https://github.com/no-problem-dev/swift-design-system)を使用した iOS UI 実装スキル |
-
-**Utility**
-| プラグイン | 説明 |
-|:----------|:-----|
-| **[release-flow](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/release-flow)** | CHANGELOG 更新・セマンティックバージョニング自動化 |
-| **[notify-on-stop](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/notify-on-stop)** | Claude Codeの停止時に Slack / macOS 通知を送信 |
-
-[![Marketplace](https://img.shields.io/badge/Marketplace-claude--code--plugins-blueviolet?style=for-the-badge&logo=github)](https://github.com/no-problem-dev/claude-code-plugins)
-
----
-
-## 📖 学習メモ
-
-AIを活用した個人学習のメモを公開しています。
-
-| リポジトリ | 内容 |
-|:----------|:-----|
-| **[swift-everything](https://github.com/no-problem-dev/swift-everything)** | Swift 関連の情報・サンプルコード・メモ |
-
-> ⚠️ 情報は正確でない可能性があります。正確な情報は公式ドキュメントを参照してください。
+[![Marketplace](https://img.shields.io/badge/claude--code--plugins-blueviolet?style=for-the-badge&logo=github)](https://github.com/no-problem-dev/claude-code-plugins)
 
 ---
 
@@ -202,21 +151,10 @@ AIを活用した個人学習のメモを公開しています。
 
 ---
 
-## 📝 最新の技術ブログ記事
+## 📝 Zenn 記事
 
-<!-- BLOG:START -->
-- [このブログの構成](https://taniguchi-kyoichi.com/tech/react-vite)<!-- BLOG:END -->
-
----
-
-## 🎥 最新のYouTube動画
-
-<!-- YOUTUBE:START -->
-- [『運動脳』の1~3章の紹介・感想](https://www.youtube.com/watch?v=XzzS6y5pZMA)
-- [『行動経済学が最強の学問である』の紹介・感想](https://www.youtube.com/watch?v=DgWIAm4kr1I)
-- [『シンギュラリティはより近く』の5~8章を読んだ感想](https://www.youtube.com/watch?v=Lgfcv3ocy4o)
-- [『シンギュラリティはより近く』の1~4章を読んだ感想](https://www.youtube.com/watch?v=h_Tqc8qJa0U)
-- [Kyoichi Channel のライブ配信](https://www.youtube.com/watch?v=1P4jzV5Kf_A)<!-- YOUTUBE:END -->
+<!-- ZENN:START -->
+<!-- ZENN:END -->
 
 ---
 
@@ -228,6 +166,6 @@ AIを活用した個人学習のメモを公開しています。
 
 🌐 **Website:** [taniguchi-kyoichi.com](https://taniguchi-kyoichi.com)
 
-📝 **技術ブログ:** [taniguchi-kyoichi.com/tech](https://taniguchi-kyoichi.com/tech)
+📝 **Zenn:** [zenn.dev/kyoichi](https://zenn.dev/kyoichi)
 
 🎥 **YouTube:** [@taniguchi-kyoichi](https://youtube.com/@taniguchi-kyoichi)

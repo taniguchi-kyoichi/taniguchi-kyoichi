@@ -1,4 +1,4 @@
-name: ブログ記事自動更新
+name: Zenn記事自動更新
 on:
   schedule:
     # 毎日午前9時（JST）に実行 (UTC 0:00)
@@ -12,17 +12,17 @@ on:
         type: string
 
 jobs:
-  update-readme-with-blog:
-    name: READMEにブログ記事を更新
+  update-readme-with-zenn:
+    name: READMEにZenn記事を更新
     runs-on: ubuntu-latest
     steps:
       - name: リポジトリをチェックアウト
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: ブログ記事をREADMEに追加
+      - name: Zenn記事をREADMEに追加
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://taniguchi-kyoichi.com/tech/rss.xml"
+          feed_list: "https://zenn.dev/kyoichi/feed"
           max_post_count: ${{ github.event.inputs.max_posts || '5' }}
-          comment_tag_name: "BLOG"
+          comment_tag_name: "ZENN"
           template: "$newline- [$title]($url)"
