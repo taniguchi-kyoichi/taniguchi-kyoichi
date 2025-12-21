@@ -46,9 +46,10 @@ OpenAI・Anthropic・Gemini に対応した**マルチモーダル LLM クライ
 ```swift
 @Structured("分析レポート")
 struct AnalysisReport {
-    @StructuredField("要約") var summary: String
+    @StructuredField("要約", .minLength(10)) var summary: String
     @StructuredField("深刻度") var severity: Severity
-    @StructuredField("推奨アクション") var recommendations: [String]
+    @StructuredField("推奨アクション", .minItems(1), .maxItems(5)) var recommendations: [String]
+    @StructuredField("信頼度スコア", .minimum(0), .maximum(100)) var confidence: Int
 }
 
 @StructuredEnum("深刻度")
