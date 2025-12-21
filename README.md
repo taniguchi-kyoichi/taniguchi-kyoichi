@@ -78,7 +78,7 @@ let session = ConversationalAgentSession(
 let screenshot = try ImageContent.file(at: "/path/to/error_screenshot.png")
 let input = LLMInput("このエラー画面を分析して、関連ドキュメントから解決策を調査して", images: [screenshot])
 
-let stream: AsyncThrowingStream<SessionPhase<AnalysisReport>, Error> = session.run(input: input, model: .sonnet)
+let stream: some AsyncSequence<SessionPhase<AnalysisReport>, Error> = session.run(input: input, model: .sonnet)
 for try await phase in stream {
     if case .completed(let report) = phase { print(report.summary) }
 }
