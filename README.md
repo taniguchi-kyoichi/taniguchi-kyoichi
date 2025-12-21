@@ -44,10 +44,11 @@ OpenAI・Anthropic・Gemini に対応した**マルチモーダル LLM クライ
 構造化出力・ツール定義・MCP統合・会話型エージェントを簡単に構築できます。
 
 ```swift
-@Structured("リサーチ結果")
-struct ResearchResult {
+@Structured("分析レポート")
+struct AnalysisReport {
     @StructuredField("要約") var summary: String
-    @StructuredField("主要な発見") var findings: [String]
+    @StructuredField("関連ドキュメント") var relatedDocs: [String]
+    @StructuredField("推奨アクション") var recommendations: [String]
 }
 
 @Tool("Webページの内容を取得")
@@ -74,12 +75,12 @@ let session = ConversationalAgentSession(
     tools: tools
 )
 
-let image = try ImageContent.file(at: "/path/to/document.png")
-let input = LLMInput("この資料を分析して最新トレンドをまとめて", images: [image])
+let screenshot = try ImageContent.file(at: "/path/to/error_screenshot.png")
+let input = LLMInput("このエラー画面を分析して、関連ドキュメントから解決策を調査して", images: [screenshot])
 
-let stream: AsyncThrowingStream<SessionPhase<ResearchResult>, Error> = session.run(input: input, model: .sonnet)
+let stream: AsyncThrowingStream<SessionPhase<AnalysisReport>, Error> = session.run(input: input, model: .sonnet)
 for try await phase in stream {
-    if case .completed(let result) = phase { print(result.summary) }
+    if case .completed(let report) = phase { print(report.summary) }
 }
 ```
 
