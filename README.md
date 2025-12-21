@@ -74,13 +74,12 @@ let session = ConversationalAgentSession(
     tools: tools
 )
 
-let input = LLMInput("最新のAIトレンドを調査して")
+let image = try ImageContent.file(at: "/path/to/document.png")
+let input = LLMInput("この資料を分析して最新トレンドをまとめて", images: [image])
 
-for try await phase in session.run(input: input, model: .sonnet, outputType: ResearchResult.self) {
-    switch phase {
-    case .completed(let result): print(result.summary)
-    default: break
-    }
+let stream: AsyncThrowingStream<SessionPhase<ResearchResult>, Error> = session.run(input: input, model: .sonnet)
+for try await phase in stream {
+    if case .completed(let result) = phase { print(result.summary) }
 }
 ```
 
