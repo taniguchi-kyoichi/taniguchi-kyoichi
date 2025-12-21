@@ -74,7 +74,9 @@ let session = ConversationalAgentSession(
     tools: tools
 )
 
-for try await phase in session.run("最新のAIトレンドを調査して", model: .sonnet, outputType: ResearchResult.self) {
+let input = LLMInput("最新のAIトレンドを調査して")
+
+for try await phase in session.run(input: input, model: .sonnet, outputType: ResearchResult.self) {
     switch phase {
     case .completed(let result): print(result.summary)
     default: break
