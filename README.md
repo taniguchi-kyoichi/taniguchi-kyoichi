@@ -165,11 +165,11 @@ Claude Code の機能を拡張するプラグインを開発・公開中。
 ## 📝 Zenn 記事
 
 <!-- ZENN:START -->
+- [Apple公式Swift Configurationを試してみた](https://zenn.dev/kyoichi/articles/swift-configuration-and-env)
 - [Swiftで画像IDからの多段取得をキャッシュするAsyncImageライクなライブラリ設計](https://zenn.dev/kyoichi/articles/swift-cached-remote-image)
 - [SwiftUIでカメラ・ライブラリからの画像取得を1行で実装する方法](https://zenn.dev/kyoichi/articles/swift-image-picker-api-design)
 - [プロトコル指向でデザインシステムを抽象化する - Swift/SwiftUI実践](https://zenn.dev/kyoichi/articles/f3a3c6a9dfe14d)
-- [なぜSwiftのSendableはデフォルトにならなかったのか](https://zenn.dev/kyoichi/articles/swift-sendable-not-default)
-- [Swift Concurrency用語完全ガイド](https://zenn.dev/kyoichi/articles/swift-concurrency-terminology)<!-- ZENN:END -->
+- [なぜSwiftのSendableはデフォルトにならなかったのか](https://zenn.dev/kyoichi/articles/swift-sendable-not-default)<!-- ZENN:END -->
 
 ---
 
