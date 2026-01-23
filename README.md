@@ -165,11 +165,11 @@ Claude Code の機能を拡張するプラグインを開発・公開中。
 ## 📝 Zenn 記事
 
 <!-- ZENN:START -->
+- [フルスタックSwift開発を始めるテンプレートを作りました](https://zenn.dev/kyoichi/articles/swift-app-template-repository)
 - [サーバーサイドSwiftを使う場合のiOSアーキテクチャ](https://zenn.dev/kyoichi/articles/swift-fullstack-architecture)
 - [サーバーサイドSwiftをより使いやすく](https://zenn.dev/kyoichi/articles/swift-api-server-easy-to-use)
 - [サーバーとクライアントでAPIの型を共有する方法](https://zenn.dev/kyoichi/articles/swift-api-contract-type-safe)
-- [SwiftUIの状態管理をマクロで仕組み化する](https://zenn.dev/kyoichi/articles/swift-statable-state-management)
-- [Apple公式Swift Configurationを試してみた](https://zenn.dev/kyoichi/articles/swift-configuration-and-env)<!-- ZENN:END -->
+- [SwiftUIの状態管理をマクロで仕組み化する](https://zenn.dev/kyoichi/articles/swift-statable-state-management)<!-- ZENN:END -->
 
 ---
 
