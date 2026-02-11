@@ -7,6 +7,7 @@
 [![Email](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
 [![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-green?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
 [![Zenn](https://img.shields.io/badge/Zenn-3EA8FF?style=for-the-badge&logo=zenn&logoColor=white)](https://zenn.dev/kyoichi)
+[![note](https://img.shields.io/badge/note-41C9B4?style=for-the-badge&logo=note&logoColor=white)](https://note.com/note_kyoichi)
 [![YouTube](https://img.shields.io/badge/YouTube-@taniguchi--kyoichi-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@taniguchi-kyoichi)
 
 </div>
@@ -180,5 +181,7 @@ Claude Code の機能を拡張するプラグインを開発・公開中。
 🌐 **Website:** [taniguchi-kyoichi.com](https://taniguchi-kyoichi.com)
 
 📝 **Zenn:** [zenn.dev/kyoichi](https://zenn.dev/kyoichi)
+
+📓 **note:** [note.com/note_kyoichi](https://note.com/note_kyoichi)
 
 🎥 **YouTube:** [@taniguchi-kyoichi](https://youtube.com/@taniguchi-kyoichi)
