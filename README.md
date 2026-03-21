@@ -166,11 +166,11 @@ Claude Code の機能を拡張するプラグインを開発・公開中。
 ## 📝 Zenn 記事
 
 <!-- ZENN:START -->
+- [QA自動化で学ぶ自己進化 — AIが操作を覚えて次回より賢くなる仕組み](https://zenn.dev/kyoichi/articles/ai-qa-agent-03-self-evolution)
 - [QA自動化で学ぶ LLM as a Judge — 「操作するAI」と「判定するAI」を分ける理由](https://zenn.dev/kyoichi/articles/ai-qa-agent-02-llm-as-judge)
 - [意図ベースでiOSアプリの動作確認を自動化する方法](https://zenn.dev/kyoichi/articles/ai-qa-agent-01-overview)
 - [XcodeBuildMCP×Claude Codeスキルシステムで、iOSビルドを自動化する](https://zenn.dev/kyoichi/articles/claude-code-xcodebuildmcp-ios-build)
-- [Xcode MCP×Claude Codeプラグインで、iOSビルドを自動化する](https://zenn.dev/kyoichi/articles/claude-code-plugin-xcode-mcp-hybrid)
-- [フルスタックSwift開発を始めるテンプレートを作りました](https://zenn.dev/kyoichi/articles/swift-app-template-repository)<!-- ZENN:END -->
+- [Xcode MCP×Claude Codeプラグインで、iOSビルドを自動化する](https://zenn.dev/kyoichi/articles/claude-code-plugin-xcode-mcp-hybrid)<!-- ZENN:END -->
 
 ---
 
