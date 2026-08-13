@@ -60,7 +60,7 @@
 | アプリ | 説明 | プラットフォーム |
 |:--:|:--|:--|
 | <a href="https://apps.apple.com/jp/app/id6751159926"><img src="assets/reading-memory-icon.png" width="100" alt="読書メモリー"></a><br>**読書メモリー** | メモ、本についての AI との対話、読書習慣の記録 <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6751159926) | iOS |
-| <a href="https://apps.apple.com/jp/app/id1671700938"><img src="assets/gohoubi-shukan-icon.jpg" width="100" alt="ごほうび習慣"></a><br>**ごほうび習慣** | ごほうびで続ける習慣管理 <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id1671700938) | iOS |
+| <a href="https://apps.apple.com/jp/app/id1671700938"><img src="assets/gohoubi-shukan-icon.png" width="100" alt="ごほうび習慣"></a><br>**ごほうび習慣** | ごほうびで続ける習慣管理 <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id1671700938) | iOS |
 
 ---
 
