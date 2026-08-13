@@ -96,6 +96,11 @@ Tools I built for working with coding agents.
 
 ## 📝 Writing (Japanese)
 
+[![Zenn](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fzenn.dev%2Fapi%2Fusers%2Fkyoichi&query=%24.user.articles_count&label=Zenn&suffix=%20articles&color=3EA8FF&style=flat-square&logo=zenn&logoColor=white)](https://zenn.dev/kyoichi)
+[![Zenn likes](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fzenn.dev%2Fapi%2Fusers%2Fkyoichi&query=%24.user.total_liked_count&label=likes&color=3EA8FF&style=flat-square)](https://zenn.dev/kyoichi)
+[![note](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fnote.com%2Fapi%2Fv2%2Fcreators%2Fnote_kyoichi&query=%24.data.noteCount&label=note&suffix=%20articles&color=41C9B4&style=flat-square&logo=note&logoColor=white)](https://note.com/note_kyoichi)
+[![note followers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fnote.com%2Fapi%2Fv2%2Fcreators%2Fnote_kyoichi&query=%24.data.followerCount&label=followers&color=41C9B4&style=flat-square)](https://note.com/note_kyoichi)
+
 <!-- ZENN:START -->
 - [AIに「思いつき」をさせる ― 出力の多様性を設計する 8 つの工夫](https://zenn.dev/kyoichi/articles/ai-diversity-engineering-ideation)
 - [動作確認の自動化で学ぶ自己進化 — AIが操作を覚えて次回より賢くなる仕組み](https://zenn.dev/kyoichi/articles/ai-qa-agent-03-self-evolution)
