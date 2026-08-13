@@ -58,9 +58,9 @@ Tools I built for working with coding agents.
 ## 📱 Applications
 
 | App | Description | Platform |
-|:--|:--|:--|
-| [読書メモリー](https://apps.apple.com/jp/app/id6751159926) (Reading Memory) | Notes, AI conversation about a book, and reading habit tracking | iOS |
-| [ごほうび習慣](https://apps.apple.com/jp/app/id1671700938) (Gohoubi Shukan) | Habit tracking with a reward system | iOS |
+|:--:|:--|:--|
+| <a href="https://apps.apple.com/jp/app/id6751159926"><img src="assets/reading-memory-icon.png" width="100" alt="読書メモリー"></a><br>**読書メモリー**<br>(Reading Memory) | Notes, AI conversation about a book, and reading habit tracking <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6751159926) | iOS |
+| <a href="https://apps.apple.com/jp/app/id1671700938"><img src="assets/gohoubi-shukan-icon.jpg" width="100" alt="ごほうび習慣"></a><br>**ごほうび習慣**<br>(Gohoubi Shukan) | Habit tracking with a reward system <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id1671700938) | iOS |
 
 ---
 
