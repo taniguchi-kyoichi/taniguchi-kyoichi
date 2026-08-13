@@ -9,7 +9,6 @@ English | [日本語](README.ja.md)
 [![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-green?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
 [![X](https://img.shields.io/badge/X-@x__kyoichi-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/x_kyoichi)
 [![Zenn](https://img.shields.io/badge/Zenn-3EA8FF?style=for-the-badge&logo=zenn&logoColor=white)](https://zenn.dev/kyoichi)
-[![note](https://img.shields.io/badge/note-41C9B4?style=for-the-badge&logo=note&logoColor=white)](https://note.com/note_kyoichi)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@taniguchi-kyoichi)
 [![Email](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
 
@@ -96,10 +95,8 @@ Tools I built for working with coding agents.
 
 ## 📝 Writing (Japanese)
 
-[![Zenn](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fzenn.dev%2Fapi%2Fusers%2Fkyoichi&query=%24.user.articles_count&label=Zenn&suffix=%20articles&color=3EA8FF&style=flat-square&logo=zenn&logoColor=white)](https://zenn.dev/kyoichi)
-[![Zenn likes](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fzenn.dev%2Fapi%2Fusers%2Fkyoichi&query=%24.user.total_liked_count&label=likes&color=3EA8FF&style=flat-square)](https://zenn.dev/kyoichi)
-[![note](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fnote.com%2Fapi%2Fv2%2Fcreators%2Fnote_kyoichi&query=%24.data.noteCount&label=note&suffix=%20articles&color=41C9B4&style=flat-square&logo=note&logoColor=white)](https://note.com/note_kyoichi)
-[![note followers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fnote.com%2Fapi%2Fv2%2Fcreators%2Fnote_kyoichi&query=%24.data.followerCount&label=followers&color=41C9B4&style=flat-square)](https://note.com/note_kyoichi)
+[![Zenn](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fzenn.dev%2Fapi%2Fusers%2Fkyoichi&query=%24.user.articles_count&label=Zenn&suffix=%20articles&color=3EA8FF&style=flat-square&logo=zenn&logoColor=white&cacheSeconds=86400)](https://zenn.dev/kyoichi)
+[![Zenn likes](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fzenn.dev%2Fapi%2Fusers%2Fkyoichi&query=%24.user.total_liked_count&label=likes&color=3EA8FF&style=flat-square&cacheSeconds=86400)](https://zenn.dev/kyoichi)
 
 <!-- ZENN:START -->
 - [AIに「思いつき」をさせる ― 出力の多様性を設計する 8 つの工夫](https://zenn.dev/kyoichi/articles/ai-diversity-engineering-ideation)
