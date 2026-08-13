@@ -26,3 +26,5 @@ jobs:
           max_post_count: ${{ github.event.inputs.max_posts || '5' }}
           comment_tag_name: "ZENN"
           template: "$newline- [$title]($url)"
+          # 英語版と日本語版の両方を更新する(片方だけだと記事一覧が食い違う)
+          readme_path: "./README.md, ./README.ja.md"

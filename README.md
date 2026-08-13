@@ -1,169 +1,100 @@
 <div align="center">
 
-# 谷口 恭一 / Kyoichi Taniguchi
+# Kyoichi Taniguchi
 
-**iOSエンジニア | Swift & SwiftUI**
+**iOS Engineer | Swift & SwiftUI**
 
-[![Email](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
+English | [日本語](README.ja.md)
+
 [![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-green?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
+[![X](https://img.shields.io/badge/X-@x__kyoichi-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/x_kyoichi)
 [![Zenn](https://img.shields.io/badge/Zenn-3EA8FF?style=for-the-badge&logo=zenn&logoColor=white)](https://zenn.dev/kyoichi)
 [![note](https://img.shields.io/badge/note-41C9B4?style=for-the-badge&logo=note&logoColor=white)](https://note.com/note_kyoichi)
-[![YouTube](https://img.shields.io/badge/YouTube-@taniguchi--kyoichi-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@taniguchi-kyoichi)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@taniguchi-kyoichi)
+[![Email](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
 
 </div>
 
 ---
 
-## 👨‍💻 自己紹介
+## 👨‍💻 About
 
-- 🎓 **横浜国立大学** 卒業（2025年3月）
-  - 理工学部 数物・電子情報系学科
-- 🏢 東京のライフスタイルアプリ開発会社でiOSエンジニアとして勤務
-- 📍 神奈川県横浜市在住
-- 💡 **Swift & SwiftUI** を使ったネイティブiOSアプリ開発に情熱を注ぐ
-- 🤖 モバイルアプリケーションへのAI統合技術を探求中
-
----
-
-## 🚀 注力プロジェクト
-
-<table>
-<tr>
-<td>
-
-### 🧠 [swift-llm-structured-outputs](https://github.com/no-problem-dev/swift-llm-structured-outputs)
-
-**Swift で LLM を使ったアプリ・エージェントを構築するためのライブラリ**
-
-[![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
-[![iOS](https://img.shields.io/badge/iOS-17.0+-blue.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
-[![macOS](https://img.shields.io/badge/macOS-14.0+-blue.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
-[![Linux](https://img.shields.io/badge/Linux-compatible-green.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/no-problem-dev/swift-llm-structured-outputs)
-
-OpenAI・Anthropic・Gemini に対応した**マルチモーダル LLM クライアント**。
-構造化出力・ツール定義・MCP統合・会話型エージェントを簡単に構築できます。
-
-```swift
-@Structured("分析レポート")
-struct AnalysisReport {
-    @StructuredField("要約", .minLength(10)) var summary: String
-    @StructuredField("深刻度") var severity: Severity
-    @StructuredField("推奨アクション", .minItems(1), .maxItems(5)) var recommendations: [String]
-    @StructuredField("信頼度スコア", .minimum(0), .maximum(100)) var confidence: Int
-}
-
-@StructuredEnum("深刻度")
-enum Severity: String {
-    @StructuredCase("軽微な問題") case low
-    @StructuredCase("対応が必要") case medium
-    @StructuredCase("緊急対応が必要") case critical
-}
-
-@Tool("Webページの内容を取得")
-struct FetchWebPage {
-    @ToolArgument("URL") var url: String
-    func call() async throws -> String { ... }
-}
-
-let tools = ToolSet {
-    FetchWebPage()
-    MCPServer(command: "npx", arguments: ["-y", "@anthropic/mcp-server-filesystem", "/docs"])
-}
-
-let systemPrompt = Prompt {
-    PromptComponent.role("リサーチアシスタント")
-    PromptComponent.objective("ドキュメントを調査してレポートを作成")
-    PromptComponent.instruction("複数のソースから情報を収集する")
-    PromptComponent.constraint("事実に基づいた情報のみを報告する")
-}
-
-let session = ConversationalAgentSession(
-    client: AnthropicClient(apiKey: "..."),
-    systemPrompt: systemPrompt,
-    tools: tools
-)
-
-let screenshot = try ImageContent.file(at: "/path/to/error_screenshot.png")
-let input = LLMInput("このエラー画面を分析して、関連ドキュメントから解決策を調査して", images: [screenshot])
-
-let stream: some AsyncSequence<SessionPhase<AnalysisReport>, Error> = session.run(input: input, model: .sonnet)
-for try await phase in stream {
-    if case .completed(let report) = phase { print(report.summary) }
-}
-```
-
-📚 [ドキュメント](https://no-problem-dev.github.io/swift-llm-structured-outputs/documentation/llmstructuredoutputs/)
-
-</td>
-</tr>
-</table>
+- 🎓 Graduated from **Yokohama National University** (March 2025)
+  - Faculty of Engineering Science — Mathematics, Physics, Electrical and Computer Engineering
+- 🏢 iOS engineer at a lifestyle app company in Tokyo
+- 📍 Based in Yokohama, Kanagawa, Japan
+- 💡 Native iOS development with **Swift & SwiftUI**
+- 🤖 Integrating AI into mobile applications
 
 ---
 
 ## 📦 Swift Packages
 
-Swift開発者向けに、アプリ開発を加速させるパッケージを公開しています。
+40+ packages are public. These are the five I use most.
 
-| パッケージ | 説明 |
-|:----------|:-----|
-| [swift-llm-structured-outputs](https://github.com/no-problem-dev/swift-llm-structured-outputs) | マルチモーダル対応のLLMクライアント。会話型エージェントを簡単に構築 |
-| [LLMCodable](https://github.com/no-problem-dev/LLMCodable) | LLMベースの構造化データ変換。自然言語からSwift型への変換を実現 |
-| [swift-design-system](https://github.com/no-problem-dev/swift-design-system) | SwiftUI向け型安全デザインシステム。7種類のビルトインテーマ、ライト/ダークモード対応 |
-| [swift-cached-remote-image](https://github.com/no-problem-dev/swift-cached-remote-image) | メモリ＆ディスク二層キャッシュのリモート画像ライブラリ |
-| [swift-authentication](https://github.com/no-problem-dev/swift-authentication) | Firebase Auth / Google Sign-In / Apple Sign-In 統合。async/await対応 |
-| [swift-subscription](https://github.com/no-problem-dev/swift-subscription) | RevenueCat統合のサブスクリプション管理。購入・復元・状態監視 |
-| [swift-api-client](https://github.com/no-problem-dev/swift-api-client) | async/await対応の軽量HTTPクライアント。型安全なAPI通信 |
-| [swift-firebase-server](https://github.com/no-problem-dev/swift-firebase-server) | Firestore REST APIクライアント。サーバーサイドSwift向け |
+| Package | Description |
+|:--|:--|
+| [swift-design-system](https://github.com/no-problem-dev/swift-design-system) | SwiftUI components with switchable themes |
+| [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing) | Type-safe declarative navigation for SwiftUI |
+| [swift-statable](https://github.com/no-problem-dev/swift-statable) | Async loading state, handled by a single macro |
+| [swift-markdown-view](https://github.com/no-problem-dev/swift-markdown-view) | Markdown editing and rendering on TextKit 2 |
+| [swift-llm-client](https://github.com/no-problem-dev/swift-llm-client) | One API for Claude, GPT, Gemini and other providers |
+
+All packages: [no-problem-dev](https://github.com/no-problem-dev)
 
 ---
 
-## 📱 公開アプリ
+## 🤖 Tools for AI-Assisted Development
+
+Tools I built for working with coding agents.
+
+| Tool | Description |
+|:--|:--|
+| [claude-gate](https://github.com/no-problem-dev/claude-gate) | Automates checking that an iOS app behaves as intended, and keeps the results as evidence |
+| [claude-proto](https://github.com/no-problem-dev/claude-proto) | Builds several design proposals for one screen in parallel, to compare |
+
+---
+
+## 📱 Applications
 
 | App | Description | Platform |
-|:---:|:------------|:---------|
-| <a href="https://apps.apple.com/jp/app/id6751159926"><img src="assets/reading-memory-icon.png" width="100" alt="読書メモリー Icon"></a> <br> 読書メモリー | 本との出会いと対話を美しく記録するアプリ。AIチャットメモ・読書習慣トラッキング・本棚管理 <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6751159926) | iOS |
+|:--:|:--|:--|
+| <a href="https://apps.apple.com/jp/app/id6751159926"><img src="assets/reading-memory-icon.png" width="100" alt="読書メモリー"></a><br>**読書メモリー**<br>(Reading Memory) | Notes, AI conversation about a book, and reading habit tracking <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6751159926) | iOS |
+| <a href="https://apps.apple.com/jp/app/id1671700938"><img src="assets/gohoubi-shukan-icon.png" width="100" alt="ごほうび習慣"></a><br>**ごほうび習慣**<br>(Gohoubi Shukan) | Habit tracking with a reward system <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id1671700938) | iOS |
 
 ---
 
-## 🤖 Claude Code プラグイン
+## 🛠 Tech Stack
 
-Claude Code の機能を拡張するプラグインを開発・公開中。
+### Primary
 
-| カテゴリ | プラグイン |
-|:--------|:----------|
-| **Development** | [ios-dev](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/ios-dev) ・ [go-backend](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/go-backend) ・ [firebase-emulator](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/firebase-emulator) |
-| **Architecture** | [ios-architecture](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/ios-architecture) ・ [swift-design-system](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/swift-design-system) |
-| **Utility** | [release-flow](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/release-flow) ・ [notify-on-stop](https://github.com/no-problem-dev/claude-code-plugins/tree/main/plugins/notify-on-stop) |
+**iOS**
 
-[![Marketplace](https://img.shields.io/badge/claude--code--plugins-blueviolet?style=for-the-badge&logo=github)](https://github.com/no-problem-dev/claude-code-plugins)
+- **Swift** — primary language for native iOS development
+- **SwiftUI** — declarative UI framework
+- **UIKit** — established iOS UI framework
+- **Combine** — reactive programming framework
+- **async/await** — Swift structured concurrency
+- **React Native** — cross-platform iOS / Android development, used on client projects
 
----
+**Cloud & Backend**
 
-## 🛠 技術スタック
+- **Cloudflare** — Workers, D1, R2, Vectorize, Pages
+- **Firebase** — Authentication, Firestore, Cloud Functions
+- **Google Cloud Platform** — Cloud Run and related services
 
-### 主要スタック（実務経験あり）
+### Secondary
 
-**iOS開発**
-- **Swift** - ネイティブiOS開発の主要言語
-- **SwiftUI** - モダンな宣言的UIフレームワーク
-- **UIKit** - 従来のiOS UIフレームワーク
-- **Combine** - リアクティブプログラミングフレームワーク
-- **async/await** - モダンなSwift並行処理
-
-**クラウド & バックエンド**
-- **Firebase** - 認証、Firestore、Cloud Functions
-- **Google Cloud Platform** - クラウドサービスとAPI
-
-### サブスタック
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Hono](https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 ---
 
-## 📝 Zenn 記事
+## 📝 Writing (Japanese)
 
 <!-- ZENN:START -->
 - [AIに「思いつき」をさせる ― 出力の多様性を設計する 8 つの工夫](https://zenn.dev/kyoichi/articles/ai-diversity-engineering-ideation)
@@ -174,14 +105,8 @@ Claude Code の機能を拡張するプラグインを開発・公開中。
 
 ---
 
-## 💬 お問い合わせ
+## 💬 Contact
 
 📧 **Email:** [info@taniguchi-kyoichi.com](mailto:info@taniguchi-kyoichi.com)
 
 🌐 **Website:** [taniguchi-kyoichi.com](https://taniguchi-kyoichi.com)
-
-📝 **Zenn:** [zenn.dev/kyoichi](https://zenn.dev/kyoichi)
-
-📓 **note:** [note.com/note_kyoichi](https://note.com/note_kyoichi)
-
-🎥 **YouTube:** [@taniguchi-kyoichi](https://youtube.com/@taniguchi-kyoichi)
