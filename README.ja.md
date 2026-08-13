@@ -50,7 +50,7 @@
 
 | ツール | 説明 |
 |:--|:--|
-| [claude-gate](https://github.com/no-problem-dev/claude-gate) | 証拠の無い「動きました」を受理しない |
+| [claude-gate](https://github.com/no-problem-dev/claude-gate) | 完了報告に、証拠と検査結果の添付を要求する |
 | [claude-proto](https://github.com/no-problem-dev/claude-proto) | 1画面に対する複数のデザイン案を並列で作り、見比べられるようにする |
 
 ---

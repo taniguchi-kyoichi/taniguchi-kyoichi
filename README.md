@@ -50,7 +50,7 @@ Tools I built for working with coding agents.
 
 | Tool | Description |
 |:--|:--|
-| [claude-gate](https://github.com/no-problem-dev/claude-gate) | Rejects "it works" when no evidence is attached |
+| [claude-gate](https://github.com/no-problem-dev/claude-gate) | Requires evidence and check results to be attached to a completion report |
 | [claude-proto](https://github.com/no-problem-dev/claude-proto) | Builds several design proposals for one screen in parallel, to compare |
 
 ---
