@@ -64,13 +64,6 @@ Tools I built for working with coding agents.
 
 ---
 
-## 🚧 Current Work — August 2026
-
-- iOS task management application for asynchronous work with AI agents, developed in public
-- Articles on AI-assisted iOS development, published on Zenn in Japanese
-
----
-
 ## 🛠 Tech Stack
 
 ### Primary
