@@ -50,7 +50,7 @@
 
 | ツール | 説明 |
 |:--|:--|
-| [claude-gate](https://github.com/no-problem-dev/claude-gate) | 完了報告に、証拠と検査結果の添付を要求する |
+| [claude-gate](https://github.com/no-problem-dev/claude-gate) | iOS 開発の動作確認を自動化し、結果を証拠として残す |
 | [claude-proto](https://github.com/no-problem-dev/claude-proto) | 1画面に対する複数のデザイン案を並列で作り、見比べられるようにする |
 
 ---

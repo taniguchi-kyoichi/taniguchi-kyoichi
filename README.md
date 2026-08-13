@@ -50,7 +50,7 @@ Tools I built for working with coding agents.
 
 | Tool | Description |
 |:--|:--|
-| [claude-gate](https://github.com/no-problem-dev/claude-gate) | Requires evidence and check results to be attached to a completion report |
+| [claude-gate](https://github.com/no-problem-dev/claude-gate) | Automates checking that an iOS app behaves as intended, and keeps the results as evidence |
 | [claude-proto](https://github.com/no-problem-dev/claude-proto) | Builds several design proposals for one screen in parallel, to compare |
 
 ---
