@@ -30,28 +30,28 @@ English | [日本語](README.ja.md)
 
 ## 📦 Swift Packages
 
-Layers that every app needs but that belong to none of them in particular, extracted into independent packages instead of being rewritten per project.
+40+ packages are public. These are the five I use most.
 
 | Package | Description |
 |:--|:--|
-| [swift-design-system](https://github.com/no-problem-dev/swift-design-system) | SwiftUI component set built on shared color, spacing, and typography tokens. Changing the theme restyles every component. |
-| [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing) | Type-safe declarative routing for SwiftUI. Navigation and sheet presentation are declared on a router rather than in individual views. |
-| [swift-statable](https://github.com/no-problem-dev/swift-statable) | Loading state for asynchronous SwiftUI stores. A macro generates the four states and discards responses from superseded requests, so a delayed earlier load cannot overwrite a newer result. |
-| [swift-markdown-view](https://github.com/no-problem-dev/swift-markdown-view) | Markdown editing and rendering for iOS and macOS. TextKit 2 renderer with text selection continuous across block elements. |
-| [swift-llm-client](https://github.com/no-problem-dev/swift-llm-client) | A single Swift API for Claude, GPT, Gemini, Grok, Groq, Mistral, and DeepSeek. Provider and model can be changed without modifying call sites. |
+| [swift-design-system](https://github.com/no-problem-dev/swift-design-system) | SwiftUI components with switchable themes |
+| [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing) | Type-safe declarative navigation for SwiftUI |
+| [swift-statable](https://github.com/no-problem-dev/swift-statable) | Async loading state, handled by a single macro |
+| [swift-markdown-view](https://github.com/no-problem-dev/swift-markdown-view) | Markdown editing and rendering on TextKit 2 |
+| [swift-llm-client](https://github.com/no-problem-dev/swift-llm-client) | One API for Claude, GPT, Gemini and other providers |
 
-Full list: [no-problem-dev](https://github.com/no-problem-dev)
+All packages: [no-problem-dev](https://github.com/no-problem-dev)
 
 ---
 
 ## 🤖 Tools for AI-Assisted Development
 
-Gates placed between what an agent produces and the person who receives it. Neither accepts a report as proof: work passes only when it arrives with evidence a machine can check.
+Tools I built for working with coding agents.
 
 | Tool | Description |
 |:--|:--|
-| [claude-gate](https://github.com/no-problem-dev/claude-gate) | Local MCP daemon that rejects completion reports without attached evidence: screenshots, screen recordings, and the results of checks it executes itself. |
-| [claude-proto](https://github.com/no-problem-dev/claude-proto) | Gate for design exploration. Multiple proposals for a single screen are produced in parallel under fixed comparison conditions. A proposal without accepted evidence is excluded from the exhibit, and approval is restricted to the requester. |
+| [claude-gate](https://github.com/no-problem-dev/claude-gate) | Rejects "it works" when no evidence is attached |
+| [claude-proto](https://github.com/no-problem-dev/claude-proto) | Builds several design proposals for one screen in parallel, to compare |
 
 ---
 
@@ -59,8 +59,8 @@ Gates placed between what an agent produces and the person who receives it. Neit
 
 | App | Description | Platform |
 |:--|:--|:--|
-| [読書メモリー](https://apps.apple.com/jp/app/id6751159926) (Reading Memory) | Reading record application. Notes, AI-assisted discussion of a book, and reading habit tracking. | iOS |
-| [ごほうび習慣](https://apps.apple.com/jp/app/id1671700938) (Gohoubi Shukan) | Habit tracking application with a reward system. | iOS |
+| [読書メモリー](https://apps.apple.com/jp/app/id6751159926) (Reading Memory) | Notes, AI conversation about a book, and reading habit tracking | iOS |
+| [ごほうび習慣](https://apps.apple.com/jp/app/id1671700938) (Gohoubi Shukan) | Habit tracking with a reward system | iOS |
 
 ---
 

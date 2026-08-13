@@ -30,28 +30,28 @@
 
 ## 📦 Swift パッケージ
 
-どのアプリでも必要になるが、そのアプリに固有ではない層を、案件ごとに書き直さず独立したパッケージとして切り出したものです。
+40 個以上を公開しています。よく使う5つはこちらです。
 
 | パッケージ | 説明 |
 |:--|:--|
-| [swift-design-system](https://github.com/no-problem-dev/swift-design-system) | 共通のカラー・スペーシング・タイポグラフィのトークンを基盤とする SwiftUI コンポーネント群。テーマを変更すると全コンポーネントのスタイルが切り替わる |
-| [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing) | SwiftUI 向けの型安全な宣言的ルーティング。画面遷移とシート表示を個々のビューではなくルーターに宣言する |
-| [swift-statable](https://github.com/no-problem-dev/swift-statable) | 非同期ストアの読み込み状態。マクロが4つの状態を生成し、後続のリクエストに置き換えられた応答を破棄するため、遅延した先行の読み込みが新しい結果を上書きしない |
-| [swift-markdown-view](https://github.com/no-problem-dev/swift-markdown-view) | iOS / macOS 向けの Markdown 編集・描画。TextKit 2 による描画で、テキスト選択がブロック要素をまたいで連続する |
-| [swift-llm-client](https://github.com/no-problem-dev/swift-llm-client) | Claude / GPT / Gemini / Grok / Groq / Mistral / DeepSeek を単一の Swift API で扱う。プロバイダとモデルは呼び出し側を変更せずに差し替えられる |
+| [swift-design-system](https://github.com/no-problem-dev/swift-design-system) | テーマを切り替えられる SwiftUI のコンポーネント集 |
+| [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing) | SwiftUI の画面遷移を型安全に宣言する |
+| [swift-statable](https://github.com/no-problem-dev/swift-statable) | 非同期の読み込み状態をマクロ1つで扱う |
+| [swift-markdown-view](https://github.com/no-problem-dev/swift-markdown-view) | TextKit 2 による Markdown の編集と表示 |
+| [swift-llm-client](https://github.com/no-problem-dev/swift-llm-client) | Claude / GPT / Gemini などを単一の API で扱う |
 
-一覧: [no-problem-dev](https://github.com/no-problem-dev)
+すべてのパッケージ: [no-problem-dev](https://github.com/no-problem-dev)
 
 ---
 
 ## 🤖 AI を用いた開発のためのツール
 
-エージェントが作ったものと、それを受け取る人との間に置く関門です。いずれも報告を証拠として扱わず、機械が検証できるものが揃って初めて通します。
+コーディングエージェントと作業するために自分で作った道具です。
 
 | ツール | 説明 |
 |:--|:--|
-| [claude-gate](https://github.com/no-problem-dev/claude-gate) | 証拠が添付されていない完了報告を受理しないローカルの MCP デーモン。スクリーンショット、画面録画、および自身が実行した検査の結果を要求する |
-| [claude-proto](https://github.com/no-problem-dev/claude-proto) | デザイン探索のゲート。単一の画面に対する複数の案を、比較条件を固定した上で並列に制作する。証拠が受理されていない案は展示から除外され、承認は依頼者に限定される |
+| [claude-gate](https://github.com/no-problem-dev/claude-gate) | 証拠の無い「動きました」を受理しない |
+| [claude-proto](https://github.com/no-problem-dev/claude-proto) | 1画面に対する複数のデザイン案を並列で作り、見比べられるようにする |
 
 ---
 
@@ -59,8 +59,8 @@
 
 | アプリ | 説明 | プラットフォーム |
 |:--|:--|:--|
-| [読書メモリー](https://apps.apple.com/jp/app/id6751159926) | 読書記録アプリケーション。メモ、書籍についての AI との対話、読書習慣の記録 | iOS |
-| [ごほうび習慣](https://apps.apple.com/jp/app/id1671700938) | 報酬機構を備えた習慣管理アプリケーション | iOS |
+| [読書メモリー](https://apps.apple.com/jp/app/id6751159926) | メモ、本についての AI との対話、読書習慣の記録 | iOS |
+| [ごほうび習慣](https://apps.apple.com/jp/app/id1671700938) | ごほうびで続ける習慣管理 | iOS |
 
 ---
 
