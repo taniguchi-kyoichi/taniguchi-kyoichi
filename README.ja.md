@@ -2,60 +2,105 @@
 
 # 谷口 恭一 / Kyoichi Taniguchi
 
-**iOS / Swift エンジニア**
-
-どのアプリでも作り直すことになる層を SwiftUI のライブラリにしています。
-あわせて、AI に任せた開発から「できました」ではなく証拠を受け取るための道具を作っています。
+**iOSエンジニア | Swift & SwiftUI**
 
 [English](README.md) | 日本語
 
-[![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-111?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
-[![X](https://img.shields.io/badge/X-@x__kyoichi-111?style=for-the-badge&logo=x&logoColor=white)](https://x.com/x_kyoichi)
+[![Website](https://img.shields.io/badge/Website-taniguchi--kyoichi.com-green?style=for-the-badge&logo=safari&logoColor=white)](https://taniguchi-kyoichi.com)
+[![X](https://img.shields.io/badge/X-@x__kyoichi-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/x_kyoichi)
 [![Zenn](https://img.shields.io/badge/Zenn-3EA8FF?style=for-the-badge&logo=zenn&logoColor=white)](https://zenn.dev/kyoichi)
 [![note](https://img.shields.io/badge/note-41C9B4?style=for-the-badge&logo=note&logoColor=white)](https://note.com/note_kyoichi)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@taniguchi-kyoichi)
-[![Email](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-111?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
+[![Email](https://img.shields.io/badge/Email-info%40taniguchi--kyoichi.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@taniguchi-kyoichi.com)
 
 </div>
 
 ---
 
-## Swift パッケージ
+## 👨‍💻 自己紹介
 
-自分がアプリを出すたびに使っているものです。
+- 🎓 **横浜国立大学** 卒業（2025年3月）
+  - 理工学部 数物・電子情報系学科
+- 🏢 東京のライフスタイルアプリ開発会社でiOSエンジニアとして勤務
+- 📍 神奈川県横浜市在住
+- 💡 **Swift & SwiftUI** を使ったネイティブiOSアプリ開発に取り組む
+- 🤖 モバイルアプリケーションへのAI統合技術を探求中
 
-| パッケージ | 何をするか |
+---
+
+## 📦 Swift パッケージ
+
+実際に運用しているアプリケーションで使用しているものです。
+
+| パッケージ | 説明 |
 |:--|:--|
-| [swift-design-system](https://github.com/no-problem-dev/swift-design-system) | 色・余白・書体が最初から揃っている SwiftUI の部品一式。テーマを1つ切り替えるとアプリ全体の見た目が変わります |
-| [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing) | SwiftUI の型安全な画面遷移。遷移とシート表示を各画面に散らさず、ルーターから駆動します |
-| [swift-statable](https://github.com/no-problem-dev/swift-statable) | SwiftUI の非同期読み込み状態。マクロ1つで4つの状態が入り、遅れて返ってきた古い読み込みが新しい結果を上書きすることがありません |
-| [swift-markdown-view](https://github.com/no-problem-dev/swift-markdown-view) | iOS / macOS の Markdown 編集と表示。TextKit 2 のレンダラで、選択がブロックごとに切れずにまたいで続きます |
-| [swift-llm-client](https://github.com/no-problem-dev/swift-llm-client) | Claude / GPT / Gemini / Grok / Groq / Mistral / DeepSeek を1つの Swift API で。プロバイダを変えても呼び出し側を書き直しません |
+| [swift-design-system](https://github.com/no-problem-dev/swift-design-system) | 共通のカラー・スペーシング・タイポグラフィのトークンを基盤とする SwiftUI コンポーネント群。テーマを変更すると全コンポーネントのスタイルが切り替わる |
+| [swift-ui-routing](https://github.com/no-problem-dev/swift-ui-routing) | SwiftUI 向けの型安全な宣言的ルーティング。画面遷移とシート表示を個々のビューではなくルーターに宣言する |
+| [swift-statable](https://github.com/no-problem-dev/swift-statable) | 非同期ストアの読み込み状態。マクロが4つの状態を生成し、後続のリクエストに置き換えられた応答を破棄するため、遅延した先行の読み込みが新しい結果を上書きしない |
+| [swift-markdown-view](https://github.com/no-problem-dev/swift-markdown-view) | iOS / macOS 向けの Markdown 編集・描画。TextKit 2 による描画で、テキスト選択がブロック要素をまたいで連続する |
+| [swift-llm-client](https://github.com/no-problem-dev/swift-llm-client) | Claude / GPT / Gemini / Grok / Groq / Mistral / DeepSeek を単一の Swift API で扱う。プロバイダとモデルは呼び出し側を変更せずに差し替えられる |
 
-ほかは [no-problem-dev](https://github.com/no-problem-dev) にあります。
+一覧: [no-problem-dev](https://github.com/no-problem-dev)
 
-## AI と作るための道具
+---
 
-エージェントが「動きました」と報告することと、実際に動くことは別です。どちらも報告を、機械が確かめられるものに置き換えます。
+## 🤖 AI を用いた開発のためのツール
 
-| 道具 | 何をするか |
+エージェントによる完了報告は、完了の証拠ではありません。いずれも報告を、機械が検証できる成果物に置き換えます。
+
+| ツール | 説明 |
 |:--|:--|
-| [claude-gate](https://github.com/no-problem-dev/claude-gate) | AI と作るときの品質のゲート。ローカルの MCP デーモンが、証拠（スクリーンショット・録画・自分で走らせる検査）の無い「動きました」を受け取りません |
-| [claude-proto](https://github.com/no-problem-dev/claude-proto) | デザイン探索のゲート。1画面に対してエージェントが複数の案を並列で作り、証拠の無い案は展示に並ばず、承認できるのは依頼した人だけです |
+| [claude-gate](https://github.com/no-problem-dev/claude-gate) | 証拠が添付されていない完了報告を受理しないローカルの MCP デーモン。スクリーンショット、画面録画、および自身が実行した検査の結果を要求する |
+| [claude-proto](https://github.com/no-problem-dev/claude-proto) | デザイン探索のゲート。単一の画面に対する複数の案を、比較条件を固定した上で並列に制作する。証拠が受理されていない案は展示から除外され、承認は依頼者に限定される |
 
-## 公開しているアプリ
+---
 
-| アプリ | 内容 |
-|:--|:--|
-| [読書メモリー](https://apps.apple.com/jp/app/id6751159926) | 読んだ本を残すアプリ。メモ、本について話せる AI、読書習慣の記録 |
-| [ごほうび習慣](https://apps.apple.com/jp/app/id1671700938) | ゲーム感覚で続ける習慣トラッキング。続けるとごほうびが手に入ります |
+## 📱 公開アプリ
 
-## いま — 2026年8月
+| アプリ | 説明 | プラットフォーム |
+|:--|:--|:--|
+| [読書メモリー](https://apps.apple.com/jp/app/id6751159926) | 読書記録アプリケーション。メモ、書籍についての AI との対話、読書習慣の記録 | iOS |
+| [ごほうび習慣](https://apps.apple.com/jp/app/id1671700938) | 報酬機構を備えた習慣管理アプリケーション | iOS |
 
-AI エージェントと非同期で進めるための iOS タスク管理アプリを、build in public で作っています。
-AI と作る iOS 開発について Zenn に書いています。
+---
 
-## 記事
+## 🚧 現在の取り組み — 2026年8月
+
+- AI エージェントと非同期に作業するための iOS タスク管理アプリケーションを、開発過程を公開しながら制作
+- AI を用いた iOS 開発に関する記事を Zenn に公開
+
+---
+
+## 🛠 技術スタック
+
+### 主要スタック
+
+**iOS開発**
+
+- **Swift** — ネイティブiOS開発の主要言語
+- **SwiftUI** — 宣言的UIフレームワーク
+- **UIKit** — 従来のiOS UIフレームワーク
+- **Combine** — リアクティブプログラミングフレームワーク
+- **async/await** — Swift の構造化並行処理
+
+**クラウド & バックエンド**
+
+- **Cloudflare** — Workers, D1, R2, Vectorize, Pages
+- **Firebase** — 認証、Firestore、Cloud Functions
+- **Google Cloud Platform** — Cloud Run および関連サービス
+
+### サブスタック
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Hono](https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+
+---
+
+## 📝 Zenn 記事
 
 <!-- ZENN:START -->
 - [AIに「思いつき」をさせる ― 出力の多様性を設計する 8 つの工夫](https://zenn.dev/kyoichi/articles/ai-diversity-engineering-ideation)
@@ -64,4 +109,10 @@ AI と作る iOS 開発について Zenn に書いています。
 - [意図ベースでiOSアプリの動作確認を自動化する方法](https://zenn.dev/kyoichi/articles/ai-qa-agent-01-overview)
 - [XcodeBuildMCP×Claude Codeスキルシステムで、iOSビルドを自動化する](https://zenn.dev/kyoichi/articles/claude-code-xcodebuildmcp-ios-build)<!-- ZENN:END -->
 
-より詳しい紹介は [taniguchi-kyoichi.com](https://taniguchi-kyoichi.com) にあります。
+---
+
+## 💬 お問い合わせ
+
+📧 **Email:** [info@taniguchi-kyoichi.com](mailto:info@taniguchi-kyoichi.com)
+
+🌐 **Website:** [taniguchi-kyoichi.com](https://taniguchi-kyoichi.com)
