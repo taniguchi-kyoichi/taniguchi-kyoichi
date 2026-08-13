@@ -82,6 +82,7 @@ A completion report from an agent is not evidence of completion. Both tools repl
 - **UIKit** — established iOS UI framework
 - **Combine** — reactive programming framework
 - **async/await** — Swift structured concurrency
+- **React Native** — cross-platform iOS / Android development, used on client projects
 
 **Cloud & Backend**
 

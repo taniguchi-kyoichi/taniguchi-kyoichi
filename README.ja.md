@@ -82,6 +82,7 @@
 - **UIKit** — 従来のiOS UIフレームワーク
 - **Combine** — リアクティブプログラミングフレームワーク
 - **async/await** — Swift の構造化並行処理
+- **React Native** — iOS / Android のクロスプラットフォーム開発。受託案件で使用
 
 **クラウド & バックエンド**
 
