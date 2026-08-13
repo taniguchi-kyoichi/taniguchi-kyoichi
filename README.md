@@ -30,7 +30,7 @@ English | [日本語](README.ja.md)
 
 ## 📦 Swift Packages
 
-Libraries used in the applications I ship.
+Layers that every app needs but that belong to none of them in particular, extracted into independent packages instead of being rewritten per project.
 
 | Package | Description |
 |:--|:--|
@@ -46,7 +46,7 @@ Full list: [no-problem-dev](https://github.com/no-problem-dev)
 
 ## 🤖 Tools for AI-Assisted Development
 
-A completion report from an agent is not evidence of completion. Both tools replace the report with artifacts a machine can verify.
+Gates placed between what an agent produces and the person who receives it. Neither accepts a report as proof: work passes only when it arrives with evidence a machine can check.
 
 | Tool | Description |
 |:--|:--|
