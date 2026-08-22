@@ -58,6 +58,7 @@ Tools I built for working with coding agents.
 
 | App | Description | Platform |
 |:--:|:--|:--|
+| <a href="https://apps.apple.com/jp/app/id6792582581"><img src="assets/stock-radar-icon.png" width="100" alt="ストックレーダー"></a><br>**ストックレーダー**<br>(Stock Radar) | Predicts when household supplies are about to run out, and keeps the list shared with your partner <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6792582581) | iOS |
 | <a href="https://apps.apple.com/jp/app/id6751159926"><img src="assets/reading-memory-icon.png" width="100" alt="読書メモリー"></a><br>**読書メモリー**<br>(Reading Memory) | Notes, AI conversation about a book, and reading habit tracking <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id6751159926) | iOS |
 | <a href="https://apps.apple.com/jp/app/id1671700938"><img src="assets/gohoubi-shukan-icon.png" width="100" alt="ごほうび習慣"></a><br>**ごほうび習慣**<br>(Gohoubi Shukan) | Habit tracking with a reward system <br> [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/jp/app/id1671700938) | iOS |
 
